@@ -1,0 +1,9570 @@
+[
+  {
+    "id": "val_invoice_0",
+    "images": [
+      "dataset/zzsptfp/b20.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n核算一下：金额、税额、合计分别是多少"
+      },
+      {
+        "role": "assistant",
+        "content": "金额￥2987.18，税额￥507.82，合计￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_1",
+    "images": [
+      "dataset/zzsptfp/b22.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n把发票关键信息转成JSON数据"
+      },
+      {
+        "role": "assistant",
+        "content": "{\n  \"No\": \"12269549\",\n  \"开票日期\": \"2016年06月12日\",\n  \"名称\": \"深圳市购机汇网络有限公司\",\n  \"纳税人识别号\": \"440300083885931\",\n  \"金额\": \"￥2987.18\",\n  \"税率\": \"17%\",\n  \"税额\": \"￥507.82\",\n  \"价税合计\": \"￥3495.00\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_2",
+    "images": [
+      "dataset/zzsptfp/b30.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n用JSON格式列出发票的主要字段"
+      },
+      {
+        "role": "assistant",
+        "content": "{\n  \"No\": \"12270803\",\n  \"开票日期\": \"2016年06月12日\",\n  \"名称\": \"深圳市购机汇网络有限公司\",\n  \"金额\": \"￥2987.18\",\n  \"税额\": \"¥507.82\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_3",
+    "images": [
+      "dataset/zzsptfp/b9.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n总共应付多少钱"
+      },
+      {
+        "role": "assistant",
+        "content": "￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_4",
+    "images": [
+      "dataset/zzsptfp/b7.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这票开给谁了"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市购机汇网络有限公司"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_5",
+    "images": [
+      "dataset/zzsptfp/b137.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这票开给谁了"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市购机汇网络有限公司"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_6",
+    "images": [
+      "dataset/zzsptfp/b199.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n总共应付多少钱"
+      },
+      {
+        "role": "assistant",
+        "content": "￥7495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_7",
+    "images": [
+      "dataset/zzsptfp/b30.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n查下购买方税号"
+      },
+      {
+        "role": "assistant",
+        "content": "440300083885931"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_8",
+    "images": [
+      "dataset/zzsptfp/b10.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n增值税税率多少"
+      },
+      {
+        "role": "assistant",
+        "content": "17%"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_9",
+    "images": [
+      "dataset/zzsptfp/b22.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n票据日期是几月几号"
+      },
+      {
+        "role": "assistant",
+        "content": "2016年06月12日"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_10",
+    "images": [
+      "dataset/zzsptfp/b17.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n增值税额是多少"
+      },
+      {
+        "role": "assistant",
+        "content": "手507.82"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_11",
+    "images": [
+      "dataset/zzsptfp/b9.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n票据日期是几月几号"
+      },
+      {
+        "role": "assistant",
+        "content": "2016年06月12日"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_12",
+    "images": [
+      "dataset/zzsptfp/b138.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n把发票关键信息转成JSON数据"
+      },
+      {
+        "role": "assistant",
+        "content": "{\n  \"No\": \"12263891\",\n  \"开票日期\": \"2016年06月08日\",\n  \"名称\": \"深圳市购机汇网络有限公司\",\n  \"纳税人识别号\": \"440300083885931\",\n  \"金额\": \"￥597.44\",\n  \"税率\": \"17%\",\n  \"价税合计\": \"￥699.00\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_13",
+    "images": [
+      "dataset/zzsptfp/b24.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n抬头写的什么公司"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市购机汇网络有限公司"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_14",
+    "images": [
+      "dataset/zzsptfp/b7.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n买方企业的详细资料"
+      },
+      {
+        "role": "assistant",
+        "content": "企业名称：深圳市购机汇网络有限公司，税号：440300083885931，地址电话：深圳市龙华新区民治街道民治大道展科技大厦#12070755-23806606"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_15",
+    "images": [
+      "dataset/zzsptfp/b138.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n不含税价是多少钱"
+      },
+      {
+        "role": "assistant",
+        "content": "￥597.44"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_16",
+    "images": [
+      "dataset/zzsptfp/b18.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这张票的基本信息：票号和日期"
+      },
+      {
+        "role": "assistant",
+        "content": "票号：12271543，开票时间：2016年06月12日"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_17",
+    "images": [
+      "dataset/zzsptfp/b198.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n买方企业的详细资料"
+      },
+      {
+        "role": "assistant",
+        "content": "企业名称：深圳市购机汇网络有限公司，税号：440300083885931，地址电话：深圳市龙华新区民冶街道民治大道震科技大厦&12070755-23806606"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_18",
+    "images": [
+      "dataset/zzsptfp/b19.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n用JSON格式列出发票的主要字段"
+      },
+      {
+        "role": "assistant",
+        "content": "{\n  \"No\": \"12271542\",\n  \"开票日期\": \"2016年06月12日\",\n  \"名称\": \"深圳市购机汇网络有限公司\",\n  \"金额\": \"￥2987.18\",\n  \"税额\": \"￥507.82\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_19",
+    "images": [
+      "dataset/zzsptfp/b7.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n把发票关键信息转成JSON数据"
+      },
+      {
+        "role": "assistant",
+        "content": "{\n  \"No\": \"12270862\",\n  \"开票日期\": \"2016年06月12日\",\n  \"名称\": \"深圳市购机汇网络有限公司\",\n  \"纳税人识别号\": \"440300083885931\",\n  \"金额\": \"￥2987.18\",\n  \"税率\": \"17%\",\n  \"税额\": \"￥507.82\",\n  \"价税合计\": \"￥3495.00\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_20",
+    "images": [
+      "dataset/zzsptfp/b5.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n合计金额栏是多少"
+      },
+      {
+        "role": "assistant",
+        "content": "￥2987.18"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_21",
+    "images": [
+      "dataset/zzsptfp/b201.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n不含税价是多少钱"
+      },
+      {
+        "role": "assistant",
+        "content": "￥6397.43"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_22",
+    "images": [
+      "dataset/zzsptfp/b14.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n含税价格是多少"
+      },
+      {
+        "role": "assistant",
+        "content": "￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_23",
+    "images": [
+      "dataset/zzsptfp/b2.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n核算一下：金额、税额、合计分别是多少"
+      },
+      {
+        "role": "assistant",
+        "content": "金额￥2987.18，税额￥507.82，合计￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_24",
+    "images": [
+      "dataset/zzsptfp/b4.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n增值税额是多少"
+      },
+      {
+        "role": "assistant",
+        "content": "￥507.82"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_25",
+    "images": [
+      "dataset/zzsptfp/b33.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n票据日期是几月几号"
+      },
+      {
+        "role": "assistant",
+        "content": "2016年06月12日"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_26",
+    "images": [
+      "dataset/zzsptfp/b3.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n买方单位名称"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市购机汇网络有限公司"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_27",
+    "images": [
+      "dataset/zzsptfp/b4.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n税点是多少"
+      },
+      {
+        "role": "assistant",
+        "content": "17%"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_28",
+    "images": [
+      "dataset/zzsptfp/b138.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n帮我看下票号以及开票时间"
+      },
+      {
+        "role": "assistant",
+        "content": "票号：12263891，开票时间：2016年06月08日"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_29",
+    "images": [
+      "dataset/zzsptfp/b30.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n财务需要的金额信息汇总"
+      },
+      {
+        "role": "assistant",
+        "content": "金额￥2987.18，税额¥507.82，合计￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_30",
+    "images": [
+      "dataset/zzsptfp/b6.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这票开给谁了"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市购机汇网络有限公司"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_31",
+    "images": [
+      "dataset/zzsptfp/b12.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n发票的核心信息概述"
+      },
+      {
+        "role": "assistant",
+        "content": "增值税发票：票号12269568，日期2016年06月12日，购方深圳市购机汇网络有限公司，总额￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_32",
+    "images": [
+      "dataset/zzsptfp/b27.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n税金多少钱"
+      },
+      {
+        "role": "assistant",
+        "content": "￥507.82"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_33",
+    "images": [
+      "dataset/zzsptfp/b25.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n看下购货方叫啥"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市购机汇网络有限公司"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_34",
+    "images": [
+      "dataset/zzsptfp/b2.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n商品售价及适用税率"
+      },
+      {
+        "role": "assistant",
+        "content": "售价￥2987.18，税率17%"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_35",
+    "images": [
+      "dataset/zzsptfp/b13.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n应缴税款金额"
+      },
+      {
+        "role": "assistant",
+        "content": "￥507.82"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_36",
+    "images": [
+      "dataset/zzsptfp/b25.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n大写金额是多少"
+      },
+      {
+        "role": "assistant",
+        "content": "￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_37",
+    "images": [
+      "dataset/zzsptfp/b139.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n银行开户信息是什么"
+      },
+      {
+        "role": "assistant",
+        "content": "中国工商银行股份有限公司深圳园龄支行4000024709800172802"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_38",
+    "images": [
+      "dataset/zzsptfp/b140.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这张票的基本信息：票号和日期"
+      },
+      {
+        "role": "assistant",
+        "content": "票号：13102225，开票时间：2016年06月08日"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_39",
+    "images": [
+      "dataset/zzsptfp/b33.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这张票的基本信息：票号和日期"
+      },
+      {
+        "role": "assistant",
+        "content": "票号：12269563，开票时间：2016年06月12日"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_40",
+    "images": [
+      "dataset/zzsptfp/b138.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n看下购货方叫啥"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市购机汇网络有限公司"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_41",
+    "images": [
+      "dataset/zzsptfp/b19.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这票的价格和税率情况"
+      },
+      {
+        "role": "assistant",
+        "content": "售价￥2987.18，税率17%"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_42",
+    "images": [
+      "dataset/zzsptfp/b199.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n不含税价是多少钱"
+      },
+      {
+        "role": "assistant",
+        "content": "￥6405.98"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_43",
+    "images": [
+      "dataset/zzsptfp/b7.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n大写金额是多少"
+      },
+      {
+        "role": "assistant",
+        "content": "￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_44",
+    "images": [
+      "dataset/zzsptfp/b29.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n税务登记号是多少"
+      },
+      {
+        "role": "assistant",
+        "content": "440300083885931"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_45",
+    "images": [
+      "dataset/zzsptfp/b140.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n商品售价及适用税率"
+      },
+      {
+        "role": "assistant",
+        "content": "售价￥597.44，税率17%"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_46",
+    "images": [
+      "dataset/zzsptfp/b200.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n银行开户信息是什么"
+      },
+      {
+        "role": "assistant",
+        "content": "中国工商银行股份有限公司深圳园岭支行4000024709200172808"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_47",
+    "images": [
+      "dataset/zzsptfp/b33.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n查下购买方税号"
+      },
+      {
+        "role": "assistant",
+        "content": "440300083885931"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_48",
+    "images": [
+      "dataset/zzsptfp/b15.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n买方的通讯地址和联系电话"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市龙华新区民治街道民治大道展酒科技大屋4120707B6-23806606"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_49",
+    "images": [
+      "dataset/zzsptfp/b4.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n看下商品金额"
+      },
+      {
+        "role": "assistant",
+        "content": "手2987.18"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_50",
+    "images": [
+      "dataset/zzsptfp/b13.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n买方的税务编码"
+      },
+      {
+        "role": "assistant",
+        "content": "440300083885931"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_51",
+    "images": [
+      "dataset/zzsptfp/b20.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n大写金额是多少"
+      },
+      {
+        "role": "assistant",
+        "content": "￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_52",
+    "images": [
+      "dataset/zzsptfp/b138.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n票号多少"
+      },
+      {
+        "role": "assistant",
+        "content": "12263891"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_53",
+    "images": [
+      "dataset/zzsptfp/b5.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n应缴税款金额"
+      },
+      {
+        "role": "assistant",
+        "content": "鄂507.82"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_54",
+    "images": [
+      "dataset/zzsptfp/b23.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n用JSON格式列出发票的主要字段"
+      },
+      {
+        "role": "assistant",
+        "content": "{\n  \"No\": \"12270840\",\n  \"开票日期\": \"2016年06月12日\",\n  \"名称\": \"深圳市购机汇网络有限公司\",\n  \"金额\": \"￥2987.18\",\n  \"税额\": \"￥507.82\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_55",
+    "images": [
+      "dataset/zzsptfp/b137.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n银行开户信息是什么"
+      },
+      {
+        "role": "assistant",
+        "content": "中国工商银行股份有限公司深圳园龄支行4000024709200172809"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_56",
+    "images": [
+      "dataset/zzsptfp/b198.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n帮我看下票号以及开票时间"
+      },
+      {
+        "role": "assistant",
+        "content": "票号：12270257，开票时间：2016年06月12日"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_57",
+    "images": [
+      "dataset/zzsptfp/b9.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n购买方的完整信息包括哪些"
+      },
+      {
+        "role": "assistant",
+        "content": "企业名称：深圳市购机汇网络有限公司，税号：440300083885931，地址电话：深圳市龙华新区民治街道民治大道展科技大厦#12070755-23808606"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_58",
+    "images": [
+      "dataset/zzsptfp/b30.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n货物或服务的价款"
+      },
+      {
+        "role": "assistant",
+        "content": "￥2987.18"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_59",
+    "images": [
+      "dataset/zzsptfp/b25.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n发票的核心信息概述"
+      },
+      {
+        "role": "assistant",
+        "content": "增值税发票：票号12270830，日期2016年06月12日，购方深圳市购机汇网络有限公司，总额￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_60",
+    "images": [
+      "dataset/zzsptfp/b23.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n收款银行和账号"
+      },
+      {
+        "role": "assistant",
+        "content": "中国工商银行股份有限公司深圳园龄支行4000024709200172809"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_61",
+    "images": [
+      "dataset/zzsptfp/b2.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n买方的通讯地址和联系电话"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市龙华新区民治街道民治大道展科技大厦#12070755-28806606"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_62",
+    "images": [
+      "dataset/zzsptfp/b24.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这张票的基本信息：票号和日期"
+      },
+      {
+        "role": "assistant",
+        "content": "票号：12270841，开票时间：2016年06月12日"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_63",
+    "images": [
+      "dataset/zzsptfp/b9.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n银行开户信息是什么"
+      },
+      {
+        "role": "assistant",
+        "content": "中国工商银行股份有限公司深圳园岭支行4000024708200172808"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_64",
+    "images": [
+      "dataset/zzsptfp/b3.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n大写金额是多少"
+      },
+      {
+        "role": "assistant",
+        "content": "￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_65",
+    "images": [
+      "dataset/zzsptfp/b138.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n总共应付多少钱"
+      },
+      {
+        "role": "assistant",
+        "content": "￥699.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_66",
+    "images": [
+      "dataset/zzsptfp/b24.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n不含税价是多少钱"
+      },
+      {
+        "role": "assistant",
+        "content": "￥2987.18"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_67",
+    "images": [
+      "dataset/zzsptfp/b0.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n财务需要的金额信息汇总"
+      },
+      {
+        "role": "assistant",
+        "content": "金额￥2987.18，税额￥507.82，合计￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_68",
+    "images": [
+      "dataset/zzsptfp/b1.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n统一社会信用代码或税号"
+      },
+      {
+        "role": "assistant",
+        "content": "440300083885931"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_69",
+    "images": [
+      "dataset/zzsptfp/b201.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n税务登记号是多少"
+      },
+      {
+        "role": "assistant",
+        "content": "440300083885931"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_70",
+    "images": [
+      "dataset/zzsptfp/b18.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n用JSON格式列出发票的主要字段"
+      },
+      {
+        "role": "assistant",
+        "content": "{\n  \"No\": \"12271543\",\n  \"开票日期\": \"2016年06月12日\",\n  \"名称\": \"深圳市购机汇网络有限公司\",\n  \"税额\": \"￥507.82\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_71",
+    "images": [
+      "dataset/zzsptfp/b140.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n买方的通讯地址和联系电话"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市龙华新区民治街道民治大道展酒科技大厦#12070755-23806806"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_72",
+    "images": [
+      "dataset/zzsptfp/b15.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n税务登记号是多少"
+      },
+      {
+        "role": "assistant",
+        "content": "440300083885931"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_73",
+    "images": [
+      "dataset/zzsptfp/b18.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这票按几个点收税"
+      },
+      {
+        "role": "assistant",
+        "content": "17%"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_74",
+    "images": [
+      "dataset/zzsptfp/b17.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n实际支付金额"
+      },
+      {
+        "role": "assistant",
+        "content": "￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_75",
+    "images": [
+      "dataset/zzsptfp/b6.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n财务需要的金额信息汇总"
+      },
+      {
+        "role": "assistant",
+        "content": "金额￥2987.18，税额￥507.82，合计￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_76",
+    "images": [
+      "dataset/zzsptfp/b5.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n购买方的完整信息包括哪些"
+      },
+      {
+        "role": "assistant",
+        "content": "企业名称：深圳市购机汇网络有限公司，税号：440300083885931，地址电话：深圳市龙华新区民治街道民治大道展活科技大厦A12070755-23806606"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_77",
+    "images": [
+      "dataset/zzsptfp/b12.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n商品售价及适用税率"
+      },
+      {
+        "role": "assistant",
+        "content": "售价￥2987.18，税率17%"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_78",
+    "images": [
+      "dataset/zzsptfp/b27.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n汇款账户信息"
+      },
+      {
+        "role": "assistant",
+        "content": "中国工商银行股份有限公司深圳园龄支行4000024709200172809"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_79",
+    "images": [
+      "dataset/zzsptfp/b1.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这张票的基本信息：票号和日期"
+      },
+      {
+        "role": "assistant",
+        "content": "票号：12270242，开票时间：2016年06月12日"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_80",
+    "images": [
+      "dataset/zzsptfp/b25.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n增值税额是多少"
+      },
+      {
+        "role": "assistant",
+        "content": "￥507.82"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_81",
+    "images": [
+      "dataset/zzsptfp/b1.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n把发票关键信息转成JSON数据"
+      },
+      {
+        "role": "assistant",
+        "content": "{\n  \"No\": \"12270242\",\n  \"开票日期\": \"2016年06月12日\",\n  \"名称\": \"深圳市购机汇网络有限公司\",\n  \"纳税人识别号\": \"440300083885931\",\n  \"金额\": \"￥1211.11\",\n  \"税率\": \"17%\",\n  \"税额\": \"￥205.89\",\n  \"价税合计\": \"￥1417.00\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_82",
+    "images": [
+      "dataset/zzsptfp/b10.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n银行开户信息是什么"
+      },
+      {
+        "role": "assistant",
+        "content": "中国工商银行股份有限公司深圳园龄支行4000024709200172809"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_83",
+    "images": [
+      "dataset/zzsptfp/b8.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这票开给谁了"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市购机网络有限公司"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_84",
+    "images": [
+      "dataset/zzsptfp/b6.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n查一下这张票的号码"
+      },
+      {
+        "role": "assistant",
+        "content": "12270857"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_85",
+    "images": [
+      "dataset/zzsptfp/b30.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n收款银行和账号"
+      },
+      {
+        "role": "assistant",
+        "content": "中国工商银行股份有限公司深圳园岭支行4000024708200172809"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_86",
+    "images": [
+      "dataset/zzsptfp/b140.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n税点是多少"
+      },
+      {
+        "role": "assistant",
+        "content": "17%"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_87",
+    "images": [
+      "dataset/zzsptfp/b0.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这票开给谁了"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市购机汇网络有限公司"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_88",
+    "images": [
+      "dataset/zzsptfp/b27.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n买方单位名称"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市购机汇网络有限公司"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_89",
+    "images": [
+      "dataset/zzsptfp/b29.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n看一下开票时间"
+      },
+      {
+        "role": "assistant",
+        "content": "2016年06月12日"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_90",
+    "images": [
+      "dataset/zzsptfp/b30.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n买方企业的详细资料"
+      },
+      {
+        "role": "assistant",
+        "content": "企业名称：深圳市购机汇网络有限公司，税号：440300083885931，地址电话：深圳市龙华新区民治街道民治大道展科技大厦A12070755-23806606"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_91",
+    "images": [
+      "dataset/zzsptfp/b18.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n银行开户信息是什么"
+      },
+      {
+        "role": "assistant",
+        "content": "中国工商银行股份有限公司深圳四岭支行4000024709200172809"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_92",
+    "images": [
+      "dataset/zzsptfp/b27.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n增值税税率多少"
+      },
+      {
+        "role": "assistant",
+        "content": "17%"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_93",
+    "images": [
+      "dataset/zzsptfp/b24.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n实际支付金额"
+      },
+      {
+        "role": "assistant",
+        "content": "￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_94",
+    "images": [
+      "dataset/zzsptfp/b198.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n税金多少钱"
+      },
+      {
+        "role": "assistant",
+        "content": "￥1089.02"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_95",
+    "images": [
+      "dataset/zzsptfp/b4.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n买方企业的详细资料"
+      },
+      {
+        "role": "assistant",
+        "content": "企业名称：深圳市购机汇网络有限公司，税号：440300083885931，地址电话：深圳市龙华新区民治街道民治大道震消科技大厦A12070755-23806606"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_96",
+    "images": [
+      "dataset/zzsptfp/b26.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n含税价格是多少"
+      },
+      {
+        "role": "assistant",
+        "content": "￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_97",
+    "images": [
+      "dataset/zzsptfp/b33.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n总共应付多少钱"
+      },
+      {
+        "role": "assistant",
+        "content": "￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_98",
+    "images": [
+      "dataset/zzsptfp/b137.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n简要介绍这张发票的内容"
+      },
+      {
+        "role": "assistant",
+        "content": "增值税发票：票号12263872，日期2016年06月08日，购方深圳市购机汇网络有限公司，总额￥699.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_99",
+    "images": [
+      "dataset/zzsptfp/b17.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n税点是多少"
+      },
+      {
+        "role": "assistant",
+        "content": "17%"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_100",
+    "images": [
+      "dataset/zzsptfp/b14.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这票按几个点收税"
+      },
+      {
+        "role": "assistant",
+        "content": "17%"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_101",
+    "images": [
+      "dataset/zzsptfp/b19.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n看下商品金额"
+      },
+      {
+        "role": "assistant",
+        "content": "￥2987.18"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_102",
+    "images": [
+      "dataset/zzsptfp/b20.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n税金多少钱"
+      },
+      {
+        "role": "assistant",
+        "content": "￥507.82"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_103",
+    "images": [
+      "dataset/zzsptfp/b200.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n用JSON格式列出发票的主要字段"
+      },
+      {
+        "role": "assistant",
+        "content": "{\n  \"No\": \"12270258\",\n  \"开票日期\": \"2016年06月12日\",\n  \"名称\": \"深圳市购机汇网络有限公司\",\n  \"金额\": \"手6397.43\",\n  \"税额\": \"￥1087.57\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_104",
+    "images": [
+      "dataset/zzsptfp/b8.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n查下购买方税号"
+      },
+      {
+        "role": "assistant",
+        "content": "440300083885931"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_105",
+    "images": [
+      "dataset/zzsptfp/b11.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n实际支付金额"
+      },
+      {
+        "role": "assistant",
+        "content": "￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_106",
+    "images": [
+      "dataset/zzsptfp/b198.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n汇款账户信息"
+      },
+      {
+        "role": "assistant",
+        "content": "中国工商银行股份有限公司深圳园岭支行4000024709200172809"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_107",
+    "images": [
+      "dataset/zzsptfp/b15.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n总共应付多少钱"
+      },
+      {
+        "role": "assistant",
+        "content": "¥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_108",
+    "images": [
+      "dataset/zzsptfp/b9.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n帮我看下票号以及开票时间"
+      },
+      {
+        "role": "assistant",
+        "content": "票号：12269559，开票时间：2016年06月12日"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_109",
+    "images": [
+      "dataset/zzsptfp/b1.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n核算一下：金额、税额、合计分别是多少"
+      },
+      {
+        "role": "assistant",
+        "content": "金额￥1211.11，税额￥205.89，合计￥1417.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_110",
+    "images": [
+      "dataset/zzsptfp/b8.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n把发票关键信息转成JSON数据"
+      },
+      {
+        "role": "assistant",
+        "content": "{\n  \"No\": \"12270864\",\n  \"开票日期\": \"2016年06月12日\",\n  \"名称\": \"深圳市购机网络有限公司\",\n  \"纳税人识别号\": \"440300083885931\",\n  \"税率\": \"17%\",\n  \"税额\": \"￥507.82\",\n  \"价税合计\": \"￥3495.00\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_111",
+    "images": [
+      "dataset/zzsptfp/b0.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n查下购买方税号"
+      },
+      {
+        "role": "assistant",
+        "content": "440300083885931"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_112",
+    "images": [
+      "dataset/zzsptfp/b13.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n购货单位地址电话信息"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市龙华新区民治街道民治大道科技大厦A12070755-23806606"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_113",
+    "images": [
+      "dataset/zzsptfp/b33.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n公司注册地址及联系方式"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市龙华新区民治街道民治大道展消科技大厦A12070755-23806606"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_114",
+    "images": [
+      "dataset/zzsptfp/b4.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n统一社会信用代码或税号"
+      },
+      {
+        "role": "assistant",
+        "content": "440300083885931"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_115",
+    "images": [
+      "dataset/zzsptfp/b33.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n发票的核心信息概述"
+      },
+      {
+        "role": "assistant",
+        "content": "增值税发票：票号12269563，日期2016年06月12日，购方深圳市购机汇网络有限公司，总额￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_116",
+    "images": [
+      "dataset/zzsptfp/b12.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n税点是多少"
+      },
+      {
+        "role": "assistant",
+        "content": "17%"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_117",
+    "images": [
+      "dataset/zzsptfp/b137.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n查下购买方税号"
+      },
+      {
+        "role": "assistant",
+        "content": "440300083885931"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_118",
+    "images": [
+      "dataset/zzsptfp/b26.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n票据日期是几月几号"
+      },
+      {
+        "role": "assistant",
+        "content": "2016年06月12日"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_119",
+    "images": [
+      "dataset/zzsptfp/b11.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n查下购买方税号"
+      },
+      {
+        "role": "assistant",
+        "content": "440300083885931"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_120",
+    "images": [
+      "dataset/zzsptfp/b2.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n用JSON格式列出发票的主要字段"
+      },
+      {
+        "role": "assistant",
+        "content": "{\n  \"No\": \"12269558\",\n  \"金额\": \"￥2987.18\",\n  \"税额\": \"￥507.82\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_121",
+    "images": [
+      "dataset/zzsptfp/b16.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n税务登记号是多少"
+      },
+      {
+        "role": "assistant",
+        "content": "440300083885931"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_122",
+    "images": [
+      "dataset/zzsptfp/b137.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n财务需要的金额信息汇总"
+      },
+      {
+        "role": "assistant",
+        "content": "金额￥597.44，税额￥101.56，合计￥699.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_123",
+    "images": [
+      "dataset/zzsptfp/b140.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n看下购货方叫啥"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市购机汇网络有限公司"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_124",
+    "images": [
+      "dataset/zzsptfp/b2.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n把发票关键信息转成JSON数据"
+      },
+      {
+        "role": "assistant",
+        "content": "{\n  \"No\": \"12269558\",\n  \"金额\": \"￥2987.18\",\n  \"税率\": \"17%\",\n  \"税额\": \"￥507.82\",\n  \"价税合计\": \"￥3495.00\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_125",
+    "images": [
+      "dataset/zzsptfp/b201.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这票的价格和税率情况"
+      },
+      {
+        "role": "assistant",
+        "content": "售价￥6397.43，税率17%"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_126",
+    "images": [
+      "dataset/zzsptfp/b8.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n含税价格是多少"
+      },
+      {
+        "role": "assistant",
+        "content": "￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_127",
+    "images": [
+      "dataset/zzsptfp/b139.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n含税价格是多少"
+      },
+      {
+        "role": "assistant",
+        "content": "￥699.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_128",
+    "images": [
+      "dataset/zzsptfp/b23.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n啥时候开的这张票"
+      },
+      {
+        "role": "assistant",
+        "content": "2016年06月12日"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_129",
+    "images": [
+      "dataset/zzsptfp/b199.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n购买方的完整信息包括哪些"
+      },
+      {
+        "role": "assistant",
+        "content": "企业名称：深圳市购机汇网络有限公司，税号：440300083885931，地址电话：深圳市龙华新区民治街道民治大道展科技大厦A12070755-23806606"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_130",
+    "images": [
+      "dataset/zzsptfp/b13.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n实际支付金额"
+      },
+      {
+        "role": "assistant",
+        "content": "￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_131",
+    "images": [
+      "dataset/zzsptfp/b20.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n税务登记号是多少"
+      },
+      {
+        "role": "assistant",
+        "content": "440300083885931"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_132",
+    "images": [
+      "dataset/zzsptfp/b29.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这票的价格和税率情况"
+      },
+      {
+        "role": "assistant",
+        "content": "售价￥2987.18，税率17%"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_133",
+    "images": [
+      "dataset/zzsptfp/b27.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n核算一下：金额、税额、合计分别是多少"
+      },
+      {
+        "role": "assistant",
+        "content": "金额手2987.18，税额￥507.82，合计￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_134",
+    "images": [
+      "dataset/zzsptfp/b140.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n把发票关键信息转成JSON数据"
+      },
+      {
+        "role": "assistant",
+        "content": "{\n  \"No\": \"13102225\",\n  \"开票日期\": \"2016年06月08日\",\n  \"名称\": \"深圳市购机汇网络有限公司\",\n  \"纳税人识别号\": \"440300083885931\",\n  \"金额\": \"￥597.44\",\n  \"税率\": \"17%\",\n  \"税额\": \"￥101.56\",\n  \"价税合计\": \"￥669.00\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_135",
+    "images": [
+      "dataset/zzsptfp/b1.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n看下商品金额"
+      },
+      {
+        "role": "assistant",
+        "content": "￥1211.11"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_136",
+    "images": [
+      "dataset/zzsptfp/b16.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n购买方的完整信息包括哪些"
+      },
+      {
+        "role": "assistant",
+        "content": "企业名称：深圳市购机汇网络有限公司，税号：440300083885931，地址电话：深圳市龙华新区民治街道民治大道展科技大厦#12070755-23806606"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_137",
+    "images": [
+      "dataset/zzsptfp/b13.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n把发票关键信息转成JSON数据"
+      },
+      {
+        "role": "assistant",
+        "content": "{\n  \"No\": \"12270855\",\n  \"开票日期\": \"2016年06月12日\",\n  \"名称\": \"深圳市购机汇网络有限公司\",\n  \"纳税人识别号\": \"440300083885931\",\n  \"金额\": \"￥2987.18\",\n  \"税率\": \"17%\",\n  \"税额\": \"￥507.82\",\n  \"价税合计\": \"￥3495.00\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_138",
+    "images": [
+      "dataset/zzsptfp/b0.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n商品售价及适用税率"
+      },
+      {
+        "role": "assistant",
+        "content": "售价￥2987.18，税率17%"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_139",
+    "images": [
+      "dataset/zzsptfp/b22.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这张票的基本信息：票号和日期"
+      },
+      {
+        "role": "assistant",
+        "content": "票号：12269549，开票时间：2016年06月12日"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_140",
+    "images": [
+      "dataset/zzsptfp/b5.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n实际支付金额"
+      },
+      {
+        "role": "assistant",
+        "content": "￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_141",
+    "images": [
+      "dataset/zzsptfp/b7.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n帮我看下票号以及开票时间"
+      },
+      {
+        "role": "assistant",
+        "content": "票号：12270862，开票时间：2016年06月12日"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_142",
+    "images": [
+      "dataset/zzsptfp/b20.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n不含税价是多少钱"
+      },
+      {
+        "role": "assistant",
+        "content": "￥2987.18"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_143",
+    "images": [
+      "dataset/zzsptfp/b27.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n票号多少"
+      },
+      {
+        "role": "assistant",
+        "content": "12270871"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_144",
+    "images": [
+      "dataset/zzsptfp/b15.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这票的价格和税率情况"
+      },
+      {
+        "role": "assistant",
+        "content": "售价￥2987.18，税率17%"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_145",
+    "images": [
+      "dataset/zzsptfp/b11.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n发票的核心信息概述"
+      },
+      {
+        "role": "assistant",
+        "content": "增值税发票：票号12270837，日期2016年06月12日，购方深圳市购机汇网络有限公司，总额￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_146",
+    "images": [
+      "dataset/zzsptfp/b18.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n把发票关键信息转成JSON数据"
+      },
+      {
+        "role": "assistant",
+        "content": "{\n  \"No\": \"12271543\",\n  \"开票日期\": \"2016年06月12日\",\n  \"名称\": \"深圳市购机汇网络有限公司\",\n  \"纳税人识别号\": \"440300083885931\",\n  \"税率\": \"17%\",\n  \"税额\": \"￥507.82\",\n  \"价税合计\": \"￥3495-00\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_147",
+    "images": [
+      "dataset/zzsptfp/b22.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n查下购买方税号"
+      },
+      {
+        "role": "assistant",
+        "content": "440300083885931"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_148",
+    "images": [
+      "dataset/zzsptfp/b12.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n买方的税务编码"
+      },
+      {
+        "role": "assistant",
+        "content": "440300083885931"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_149",
+    "images": [
+      "dataset/zzsptfp/b22.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n增值税税率多少"
+      },
+      {
+        "role": "assistant",
+        "content": "17%"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_150",
+    "images": [
+      "dataset/zzsptfp/b27.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n把发票关键信息转成JSON数据"
+      },
+      {
+        "role": "assistant",
+        "content": "{\n  \"No\": \"12270871\",\n  \"开票日期\": \"2016年06月12日\",\n  \"名称\": \"深圳市购机汇网络有限公司\",\n  \"纳税人识别号\": \"440300083885931\",\n  \"金额\": \"手2987.18\",\n  \"税率\": \"17%\",\n  \"税额\": \"￥507.82\",\n  \"价税合计\": \"￥3495.00\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_151",
+    "images": [
+      "dataset/zzsptfp/b15.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n看下商品金额"
+      },
+      {
+        "role": "assistant",
+        "content": "￥2987.18"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_152",
+    "images": [
+      "dataset/zzsptfp/b4.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这票的编号查一下"
+      },
+      {
+        "role": "assistant",
+        "content": "12270870"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_153",
+    "images": [
+      "dataset/zzsptfp/b33.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n抬头写的什么公司"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市购机汇网络有限公司"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_154",
+    "images": [
+      "dataset/zzsptfp/b15.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n简要介绍这张发票的内容"
+      },
+      {
+        "role": "assistant",
+        "content": "增值税发票：票号12271530，购方深圳市购机汇网络有限公司，总额¥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_155",
+    "images": [
+      "dataset/zzsptfp/b11.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n看下商品金额"
+      },
+      {
+        "role": "assistant",
+        "content": "￥2987.18"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_156",
+    "images": [
+      "dataset/zzsptfp/b22.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n购货单位地址电话信息"
+      },
+      {
+        "role": "assistant",
+        "content": "电"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_157",
+    "images": [
+      "dataset/zzsptfp/b198.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n票据日期是几月几号"
+      },
+      {
+        "role": "assistant",
+        "content": "2016年06月12日"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_158",
+    "images": [
+      "dataset/zzsptfp/b13.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这票的价格和税率情况"
+      },
+      {
+        "role": "assistant",
+        "content": "售价￥2987.18，税率17%"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_159",
+    "images": [
+      "dataset/zzsptfp/b200.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这票的价格和税率情况"
+      },
+      {
+        "role": "assistant",
+        "content": "售价手6397.43，税率17%"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_160",
+    "images": [
+      "dataset/zzsptfp/b20.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这张票的基本信息：票号和日期"
+      },
+      {
+        "role": "assistant",
+        "content": "票号：12271541，开票时间：2016年06月12日"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_161",
+    "images": [
+      "dataset/zzsptfp/b9.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n不含税价是多少钱"
+      },
+      {
+        "role": "assistant",
+        "content": "￥2987.18"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_162",
+    "images": [
+      "dataset/zzsptfp/b33.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这票的价格和税率情况"
+      },
+      {
+        "role": "assistant",
+        "content": "售价￥2987.18，税率17%"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_163",
+    "images": [
+      "dataset/zzsptfp/b10.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n用JSON格式列出发票的主要字段"
+      },
+      {
+        "role": "assistant",
+        "content": "{\n  \"No\": \"12270859\",\n  \"开票日期\": \"2016年06月12日\",\n  \"名称\": \"深圳市购机汇网络有限公司\",\n  \"金额\": \"￥2987.18\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_164",
+    "images": [
+      "dataset/zzsptfp/b199.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n核算一下：金额、税额、合计分别是多少"
+      },
+      {
+        "role": "assistant",
+        "content": "金额￥6405.98，税额￥1089.02，合计￥7495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_165",
+    "images": [
+      "dataset/zzsptfp/b7.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这票的价格和税率情况"
+      },
+      {
+        "role": "assistant",
+        "content": "售价￥2987.18，税率17%"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_166",
+    "images": [
+      "dataset/zzsptfp/b19.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n把发票关键信息转成JSON数据"
+      },
+      {
+        "role": "assistant",
+        "content": "{\n  \"No\": \"12271542\",\n  \"开票日期\": \"2016年06月12日\",\n  \"名称\": \"深圳市购机汇网络有限公司\",\n  \"纳税人识别号\": \"440300083885931\",\n  \"金额\": \"￥2987.18\",\n  \"税率\": \"17%\",\n  \"税额\": \"￥507.82\",\n  \"价税合计\": \"￥3495.00\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_167",
+    "images": [
+      "dataset/zzsptfp/b5.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n啥时候开的这张票"
+      },
+      {
+        "role": "assistant",
+        "content": "2016年06月12日"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_168",
+    "images": [
+      "dataset/zzsptfp/b19.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n看下购货方叫啥"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市购机汇网络有限公司"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_169",
+    "images": [
+      "dataset/zzsptfp/b9.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n税金多少钱"
+      },
+      {
+        "role": "assistant",
+        "content": "￥507.82"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_170",
+    "images": [
+      "dataset/zzsptfp/b16.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n帮我看下票号以及开票时间"
+      },
+      {
+        "role": "assistant",
+        "content": "票号：12271532，开票时间：2016年06月12日"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_171",
+    "images": [
+      "dataset/zzsptfp/b200.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n啥时候开的这张票"
+      },
+      {
+        "role": "assistant",
+        "content": "2016年06月12日"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_172",
+    "images": [
+      "dataset/zzsptfp/b0.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n税点是多少"
+      },
+      {
+        "role": "assistant",
+        "content": "17%"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_173",
+    "images": [
+      "dataset/zzsptfp/b27.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n看一下开票时间"
+      },
+      {
+        "role": "assistant",
+        "content": "2016年06月12日"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_174",
+    "images": [
+      "dataset/zzsptfp/b26.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n不含税价是多少钱"
+      },
+      {
+        "role": "assistant",
+        "content": "￥2987.18"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_175",
+    "images": [
+      "dataset/zzsptfp/b1.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n税金多少钱"
+      },
+      {
+        "role": "assistant",
+        "content": "￥205.89"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_176",
+    "images": [
+      "dataset/zzsptfp/b7.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n看下商品金额"
+      },
+      {
+        "role": "assistant",
+        "content": "￥2987.18"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_177",
+    "images": [
+      "dataset/zzsptfp/b137.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n发票代码后面的号码是什么"
+      },
+      {
+        "role": "assistant",
+        "content": "12263872"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_178",
+    "images": [
+      "dataset/zzsptfp/b138.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n发票的核心信息概述"
+      },
+      {
+        "role": "assistant",
+        "content": "增值税发票：票号12263891，日期2016年06月08日，购方深圳市购机汇网络有限公司，总额￥699.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_179",
+    "images": [
+      "dataset/zzsptfp/b138.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n购货单位地址电话信息"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市龙华新区民治街道民治大道展酒科技大厦A12070755-28806606"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_180",
+    "images": [
+      "dataset/zzsptfp/b137.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n商品售价及适用税率"
+      },
+      {
+        "role": "assistant",
+        "content": "售价￥597.44，税率17%"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_181",
+    "images": [
+      "dataset/zzsptfp/b25.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n看一下开票时间"
+      },
+      {
+        "role": "assistant",
+        "content": "2016年06月12日"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_182",
+    "images": [
+      "dataset/zzsptfp/b26.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这张票的基本信息：票号和日期"
+      },
+      {
+        "role": "assistant",
+        "content": "票号：12270798，开票时间：2016年06月12日"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_183",
+    "images": [
+      "dataset/zzsptfp/b30.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n帮我看下票号以及开票时间"
+      },
+      {
+        "role": "assistant",
+        "content": "票号：12270803，开票时间：2016年06月12日"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_184",
+    "images": [
+      "dataset/zzsptfp/b23.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n票号多少"
+      },
+      {
+        "role": "assistant",
+        "content": "12270840"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_185",
+    "images": [
+      "dataset/zzsptfp/b29.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n合计金额栏是多少"
+      },
+      {
+        "role": "assistant",
+        "content": "￥2987.18"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_186",
+    "images": [
+      "dataset/zzsptfp/b3.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n不含税价是多少钱"
+      },
+      {
+        "role": "assistant",
+        "content": "手2987.18"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_187",
+    "images": [
+      "dataset/zzsptfp/b7.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n发票代码后面的号码是什么"
+      },
+      {
+        "role": "assistant",
+        "content": "12270862"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_188",
+    "images": [
+      "dataset/zzsptfp/b11.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n税点是多少"
+      },
+      {
+        "role": "assistant",
+        "content": "17%"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_189",
+    "images": [
+      "dataset/zzsptfp/b138.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n查下购买方税号"
+      },
+      {
+        "role": "assistant",
+        "content": "440300083885931"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_190",
+    "images": [
+      "dataset/zzsptfp/b201.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n简要介绍这张发票的内容"
+      },
+      {
+        "role": "assistant",
+        "content": "增值税发票：票号12270808，日期2016年06月12日，购方深圳市购机汇网络有限公司，总额￥7485.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_191",
+    "images": [
+      "dataset/zzsptfp/b22.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这张票的关键要素有哪些"
+      },
+      {
+        "role": "assistant",
+        "content": "增值税发票：票号12269549，日期2016年06月12日，购方深圳市购机汇网络有限公司，总额￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_192",
+    "images": [
+      "dataset/zzsptfp/b29.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这票开给谁了"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市购机汇网络有限公司"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_193",
+    "images": [
+      "dataset/zzsptfp/b0.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n用JSON格式列出发票的主要字段"
+      },
+      {
+        "role": "assistant",
+        "content": "{\n  \"No\": \"12271524\",\n  \"开票日期\": \"2016年06月12日\",\n  \"名称\": \"深圳市购机汇网络有限公司\",\n  \"金额\": \"￥2987.18\",\n  \"税额\": \"￥507.82\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_194",
+    "images": [
+      "dataset/zzsptfp/b18.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n抬头写的什么公司"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市购机汇网络有限公司"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_195",
+    "images": [
+      "dataset/zzsptfp/b13.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这票是几号开的"
+      },
+      {
+        "role": "assistant",
+        "content": "2016年06月12日"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_196",
+    "images": [
+      "dataset/zzsptfp/b26.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n购买方的完整信息包括哪些"
+      },
+      {
+        "role": "assistant",
+        "content": "企业名称：深圳市购机汇网络有限公司，税号：440300083885931，地址电话：深圳市龙华新区民治街道民治大道展科技大厦A12070755-23806606"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_197",
+    "images": [
+      "dataset/zzsptfp/b199.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n增值税额是多少"
+      },
+      {
+        "role": "assistant",
+        "content": "￥1089.02"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_198",
+    "images": [
+      "dataset/zzsptfp/b8.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n增值税税率多少"
+      },
+      {
+        "role": "assistant",
+        "content": "17%"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_199",
+    "images": [
+      "dataset/zzsptfp/b25.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n用JSON格式列出发票的主要字段"
+      },
+      {
+        "role": "assistant",
+        "content": "{\n  \"No\": \"12270830\",\n  \"开票日期\": \"2016年06月12日\",\n  \"名称\": \"深圳市购机汇网络有限公司\",\n  \"金额\": \"#2987.18\",\n  \"税额\": \"￥507.82\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_200",
+    "images": [
+      "dataset/zzsptfp/b18.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n发票的核心信息概述"
+      },
+      {
+        "role": "assistant",
+        "content": "增值税发票：票号12271543，日期2016年06月12日，购方深圳市购机汇网络有限公司，总额￥3495-00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_201",
+    "images": [
+      "dataset/zzsptfp/b6.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n把发票关键信息转成JSON数据"
+      },
+      {
+        "role": "assistant",
+        "content": "{\n  \"No\": \"12270857\",\n  \"名称\": \"深圳市购机汇网络有限公司\",\n  \"纳税人识别号\": \"440300083885931\",\n  \"金额\": \"￥2987.18\",\n  \"税率\": \"17%\",\n  \"税额\": \"￥507.82\",\n  \"价税合计\": \"￥3495.00\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_202",
+    "images": [
+      "dataset/zzsptfp/b200.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n票号多少"
+      },
+      {
+        "role": "assistant",
+        "content": "12270258"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_203",
+    "images": [
+      "dataset/zzsptfp/b200.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n购买方的完整信息包括哪些"
+      },
+      {
+        "role": "assistant",
+        "content": "企业名称：深圳市购机汇网络有限公司，税号：440300083885931，地址电话：深圳市龙华新区民治街道民治大道展科技大厦A12070755-23808606"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_204",
+    "images": [
+      "dataset/zzsptfp/b0.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n实际支付金额"
+      },
+      {
+        "role": "assistant",
+        "content": "￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_205",
+    "images": [
+      "dataset/zzsptfp/b139.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n发票的核心信息概述"
+      },
+      {
+        "role": "assistant",
+        "content": "增值税发票：票号12186138，日期2016年06月08日，购方深圳市购机汇网络有限公司，总额￥699.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_206",
+    "images": [
+      "dataset/zzsptfp/b4.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n把发票关键信息转成JSON数据"
+      },
+      {
+        "role": "assistant",
+        "content": "{\n  \"No\": \"12270870\",\n  \"名称\": \"深圳市购机汇网络有限公司\",\n  \"纳税人识别号\": \"440300083885931\",\n  \"金额\": \"手2987.18\",\n  \"税率\": \"17%\",\n  \"税额\": \"￥507.82\",\n  \"价税合计\": \"￥3495.00\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_207",
+    "images": [
+      "dataset/zzsptfp/b201.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n买方的通讯地址和联系电话"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市龙华新区民治街道民治大道震科技大服A12070786-23806606"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_208",
+    "images": [
+      "dataset/zzsptfp/b24.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n买方的税务编码"
+      },
+      {
+        "role": "assistant",
+        "content": "440300083885931"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_209",
+    "images": [
+      "dataset/zzsptfp/b25.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n看下商品金额"
+      },
+      {
+        "role": "assistant",
+        "content": "#2987.18"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_210",
+    "images": [
+      "dataset/zzsptfp/b12.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n发票代码后面的号码是什么"
+      },
+      {
+        "role": "assistant",
+        "content": "12269568"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_211",
+    "images": [
+      "dataset/zzsptfp/b12.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n看下购货方叫啥"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市购机汇网络有限公司"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_212",
+    "images": [
+      "dataset/zzsptfp/b9.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n购货单位地址电话信息"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市龙华新区民治街道民治大道展科技大厦#12070755-23808606"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_213",
+    "images": [
+      "dataset/zzsptfp/b27.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n公司注册地址及联系方式"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市龙华新区民治街道民治大道展酒科技大厦A12070755-23806606"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_214",
+    "images": [
+      "dataset/zzsptfp/b19.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n查下购买方税号"
+      },
+      {
+        "role": "assistant",
+        "content": "440300083885931"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_215",
+    "images": [
+      "dataset/zzsptfp/b17.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n用JSON格式列出发票的主要字段"
+      },
+      {
+        "role": "assistant",
+        "content": "{\n  \"No\": \"12271544\",\n  \"名称\": \"深圳市购机汇网络有限公司\",\n  \"税额\": \"手507.82\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_216",
+    "images": [
+      "dataset/zzsptfp/b3.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n发票的核心信息概述"
+      },
+      {
+        "role": "assistant",
+        "content": "增值税发票：票号12269577，日期2016年06月12日，购方深圳市购机汇网络有限公司，总额￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_217",
+    "images": [
+      "dataset/zzsptfp/b7.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n税务登记号是多少"
+      },
+      {
+        "role": "assistant",
+        "content": "440300083885931"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_218",
+    "images": [
+      "dataset/zzsptfp/b27.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n不含税价是多少钱"
+      },
+      {
+        "role": "assistant",
+        "content": "手2987.18"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_219",
+    "images": [
+      "dataset/zzsptfp/b26.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n增值税额是多少"
+      },
+      {
+        "role": "assistant",
+        "content": "￥507.82"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_220",
+    "images": [
+      "dataset/zzsptfp/b137.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n增值税额是多少"
+      },
+      {
+        "role": "assistant",
+        "content": "￥101.56"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_221",
+    "images": [
+      "dataset/zzsptfp/b201.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这票开给谁了"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市购机汇网络有限公司"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_222",
+    "images": [
+      "dataset/zzsptfp/b198.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n买方单位名称"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市购机汇网络有限公司"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_223",
+    "images": [
+      "dataset/zzsptfp/b15.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n把发票关键信息转成JSON数据"
+      },
+      {
+        "role": "assistant",
+        "content": "{\n  \"No\": \"12271530\",\n  \"名称\": \"深圳市购机汇网络有限公司\",\n  \"纳税人识别号\": \"440300083885931\",\n  \"金额\": \"￥2987.18\",\n  \"税率\": \"17%\",\n  \"价税合计\": \"¥3495.00\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_224",
+    "images": [
+      "dataset/zzsptfp/b13.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n合计金额栏是多少"
+      },
+      {
+        "role": "assistant",
+        "content": "￥2987.18"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_225",
+    "images": [
+      "dataset/zzsptfp/b198.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这票的价格和税率情况"
+      },
+      {
+        "role": "assistant",
+        "content": "售价手6405.98，税率17%"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_226",
+    "images": [
+      "dataset/zzsptfp/b1.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n买方企业的详细资料"
+      },
+      {
+        "role": "assistant",
+        "content": "企业名称：深圳市购机汇网络有限公司，税号：440300083885931，地址电话：深圳市龙华新区民治街道民治大道展滘科技大厦A12070755-23806666"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_227",
+    "images": [
+      "dataset/zzsptfp/b27.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n统一社会信用代码或税号"
+      },
+      {
+        "role": "assistant",
+        "content": "440300083885931"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_228",
+    "images": [
+      "dataset/zzsptfp/b29.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n税金多少钱"
+      },
+      {
+        "role": "assistant",
+        "content": "￥507.82"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_229",
+    "images": [
+      "dataset/zzsptfp/b23.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n买方的通讯地址和联系电话"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市龙华新区民治街道民治大道展活科技大厦A12070766-23806606"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_230",
+    "images": [
+      "dataset/zzsptfp/b26.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n用JSON格式列出发票的主要字段"
+      },
+      {
+        "role": "assistant",
+        "content": "{\n  \"No\": \"12270798\",\n  \"开票日期\": \"2016年06月12日\",\n  \"名称\": \"深圳市购机汇网络有限公司\",\n  \"金额\": \"￥2987.18\",\n  \"税额\": \"￥507.82\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_231",
+    "images": [
+      "dataset/zzsptfp/b19.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n应缴税款金额"
+      },
+      {
+        "role": "assistant",
+        "content": "￥507.82"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_232",
+    "images": [
+      "dataset/zzsptfp/b7.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n买方的通讯地址和联系电话"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市龙华新区民治街道民治大道展科技大厦#12070755-23806606"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_233",
+    "images": [
+      "dataset/zzsptfp/b30.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n大写金额是多少"
+      },
+      {
+        "role": "assistant",
+        "content": "￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_234",
+    "images": [
+      "dataset/zzsptfp/b14.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n收款银行和账号"
+      },
+      {
+        "role": "assistant",
+        "content": "中国工商银行股份有限公司深圳园岭支行4000024708200172809"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_235",
+    "images": [
+      "dataset/zzsptfp/b198.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n货物或服务的价款"
+      },
+      {
+        "role": "assistant",
+        "content": "手6405.98"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_236",
+    "images": [
+      "dataset/zzsptfp/b15.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n用JSON格式列出发票的主要字段"
+      },
+      {
+        "role": "assistant",
+        "content": "{\n  \"No\": \"12271530\",\n  \"名称\": \"深圳市购机汇网络有限公司\",\n  \"金额\": \"￥2987.18\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_237",
+    "images": [
+      "dataset/zzsptfp/b10.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n啥时候开的这张票"
+      },
+      {
+        "role": "assistant",
+        "content": "2016年06月12日"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_238",
+    "images": [
+      "dataset/zzsptfp/b1.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n商品售价及适用税率"
+      },
+      {
+        "role": "assistant",
+        "content": "售价￥1211.11，税率17%"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_239",
+    "images": [
+      "dataset/zzsptfp/b8.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n用JSON格式列出发票的主要字段"
+      },
+      {
+        "role": "assistant",
+        "content": "{\n  \"No\": \"12270864\",\n  \"开票日期\": \"2016年06月12日\",\n  \"名称\": \"深圳市购机网络有限公司\",\n  \"税额\": \"￥507.82\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_240",
+    "images": [
+      "dataset/zzsptfp/b20.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n购货单位地址电话信息"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市龙华新区民治街道民治大道展科技大厦A12070755-23806606"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_241",
+    "images": [
+      "dataset/zzsptfp/b201.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n购买方的完整信息包括哪些"
+      },
+      {
+        "role": "assistant",
+        "content": "企业名称：深圳市购机汇网络有限公司，税号：440300083885931，地址电话：深圳市龙华新区民治街道民治大道震科技大服A12070786-23806606"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_242",
+    "images": [
+      "dataset/zzsptfp/b11.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n财务需要的金额信息汇总"
+      },
+      {
+        "role": "assistant",
+        "content": "金额￥2987.18，税额￥507.82，合计￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_243",
+    "images": [
+      "dataset/zzsptfp/b22.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n应缴税款金额"
+      },
+      {
+        "role": "assistant",
+        "content": "￥507.82"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_244",
+    "images": [
+      "dataset/zzsptfp/b19.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n帮我看下票号以及开票时间"
+      },
+      {
+        "role": "assistant",
+        "content": "票号：12271542，开票时间：2016年06月12日"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_245",
+    "images": [
+      "dataset/zzsptfp/b20.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这票是几号开的"
+      },
+      {
+        "role": "assistant",
+        "content": "2016年06月12日"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_246",
+    "images": [
+      "dataset/zzsptfp/b4.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n汇款账户信息"
+      },
+      {
+        "role": "assistant",
+        "content": "中国工商银行股份有限公司深圳园支行4000024709200172809"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_247",
+    "images": [
+      "dataset/zzsptfp/b10.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n票号多少"
+      },
+      {
+        "role": "assistant",
+        "content": "12270859"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_248",
+    "images": [
+      "dataset/zzsptfp/b0.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n购货单位地址电话信息"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市龙华新区民治街道民治大道服#科技大厦#12070755-23806606"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_249",
+    "images": [
+      "dataset/zzsptfp/b22.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n财务需要的金额信息汇总"
+      },
+      {
+        "role": "assistant",
+        "content": "金额￥2987.18，税额￥507.82，合计￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_250",
+    "images": [
+      "dataset/zzsptfp/b3.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n购买方的完整信息包括哪些"
+      },
+      {
+        "role": "assistant",
+        "content": "企业名称：深圳市购机汇网络有限公司，税号：440300083885931，地址电话：深圳市龙华新区民治街道民治大道展科技大厦#12070755-23806606"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_251",
+    "images": [
+      "dataset/zzsptfp/b9.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n查下购买方税号"
+      },
+      {
+        "role": "assistant",
+        "content": "440300083885931"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_252",
+    "images": [
+      "dataset/zzsptfp/b138.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n收款银行和账号"
+      },
+      {
+        "role": "assistant",
+        "content": "中国工商银行股份有限公司深圳园支行4000024709200172809"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_253",
+    "images": [
+      "dataset/zzsptfp/b198.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n查一下这张票的号码"
+      },
+      {
+        "role": "assistant",
+        "content": "12270257"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_254",
+    "images": [
+      "dataset/zzsptfp/b20.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n把发票关键信息转成JSON数据"
+      },
+      {
+        "role": "assistant",
+        "content": "{\n  \"No\": \"12271541\",\n  \"开票日期\": \"2016年06月12日\",\n  \"名称\": \"深圳市购机汇网络有限公司\",\n  \"纳税人识别号\": \"440300083885931\",\n  \"金额\": \"￥2987.18\",\n  \"税率\": \"17%\",\n  \"税额\": \"￥507.82\",\n  \"价税合计\": \"￥3495.00\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_255",
+    "images": [
+      "dataset/zzsptfp/b29.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n把发票关键信息转成JSON数据"
+      },
+      {
+        "role": "assistant",
+        "content": "{\n  \"No\": \"12270793\",\n  \"开票日期\": \"2016年06月12日\",\n  \"名称\": \"深圳市购机汇网络有限公司\",\n  \"纳税人识别号\": \"440300083885931\",\n  \"金额\": \"￥2987.18\",\n  \"税率\": \"17%\",\n  \"税额\": \"￥507.82\",\n  \"价税合计\": \"￥3495.00\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_256",
+    "images": [
+      "dataset/zzsptfp/b7.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n汇款账户信息"
+      },
+      {
+        "role": "assistant",
+        "content": "中国工商银行股份有限公司深圳园岭支行4000024709200172808"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_257",
+    "images": [
+      "dataset/zzsptfp/b24.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这张票的关键要素有哪些"
+      },
+      {
+        "role": "assistant",
+        "content": "增值税发票：票号12270841，日期2016年06月12日，购方深圳市购机汇网络有限公司，总额￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_258",
+    "images": [
+      "dataset/zzsptfp/b200.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n增值税税率多少"
+      },
+      {
+        "role": "assistant",
+        "content": "17%"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_259",
+    "images": [
+      "dataset/zzsptfp/b139.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这票的价格和税率情况"
+      },
+      {
+        "role": "assistant",
+        "content": "售价￥597.44，税率17%"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_260",
+    "images": [
+      "dataset/zzsptfp/b8.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n税金多少钱"
+      },
+      {
+        "role": "assistant",
+        "content": "￥507.82"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_261",
+    "images": [
+      "dataset/zzsptfp/b137.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n看一下开票时间"
+      },
+      {
+        "role": "assistant",
+        "content": "2016年06月08日"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_262",
+    "images": [
+      "dataset/zzsptfp/b0.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这张票的基本信息：票号和日期"
+      },
+      {
+        "role": "assistant",
+        "content": "票号：12271524，开票时间：2016年06月12日"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_263",
+    "images": [
+      "dataset/zzsptfp/b11.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n增值税额是多少"
+      },
+      {
+        "role": "assistant",
+        "content": "￥507.82"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_264",
+    "images": [
+      "dataset/zzsptfp/b19.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n核算一下：金额、税额、合计分别是多少"
+      },
+      {
+        "role": "assistant",
+        "content": "金额￥2987.18，税额￥507.82，合计￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_265",
+    "images": [
+      "dataset/zzsptfp/b139.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n买方单位名称"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市购机汇网络有限公司"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_266",
+    "images": [
+      "dataset/zzsptfp/b8.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这票是几号开的"
+      },
+      {
+        "role": "assistant",
+        "content": "2016年06月12日"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_267",
+    "images": [
+      "dataset/zzsptfp/b24.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n核算一下：金额、税额、合计分别是多少"
+      },
+      {
+        "role": "assistant",
+        "content": "金额￥2987.18，税额￥507.82，合计￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_268",
+    "images": [
+      "dataset/zzsptfp/b16.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这张票的关键要素有哪些"
+      },
+      {
+        "role": "assistant",
+        "content": "增值税发票：票号12271532，日期2016年06月12日，购方深圳市购机汇网络有限公司，总额￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_269",
+    "images": [
+      "dataset/zzsptfp/b5.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n银行开户信息是什么"
+      },
+      {
+        "role": "assistant",
+        "content": "中国工商银行股份有限公司深圳园岭支行4000024709200172809"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_270",
+    "images": [
+      "dataset/zzsptfp/b23.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n抬头写的什么公司"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市购机汇网络有限公司"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_271",
+    "images": [
+      "dataset/zzsptfp/b29.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n银行开户信息是什么"
+      },
+      {
+        "role": "assistant",
+        "content": "中国工商银行股份有限公司圳园岭支行4000024709200172809"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_272",
+    "images": [
+      "dataset/zzsptfp/b139.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这票是几号开的"
+      },
+      {
+        "role": "assistant",
+        "content": "2016年06月08日"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_273",
+    "images": [
+      "dataset/zzsptfp/b12.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n把发票关键信息转成JSON数据"
+      },
+      {
+        "role": "assistant",
+        "content": "{\n  \"No\": \"12269568\",\n  \"开票日期\": \"2016年06月12日\",\n  \"名称\": \"深圳市购机汇网络有限公司\",\n  \"纳税人识别号\": \"440300083885931\",\n  \"金额\": \"￥2987.18\",\n  \"税率\": \"17%\",\n  \"税额\": \"￥507.82\",\n  \"价税合计\": \"￥3495.00\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_274",
+    "images": [
+      "dataset/zzsptfp/b138.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n商品售价及适用税率"
+      },
+      {
+        "role": "assistant",
+        "content": "售价￥597.44，税率17%"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_275",
+    "images": [
+      "dataset/zzsptfp/b9.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n用JSON格式列出发票的主要字段"
+      },
+      {
+        "role": "assistant",
+        "content": "{\n  \"No\": \"12269559\",\n  \"开票日期\": \"2016年06月12日\",\n  \"名称\": \"深圳市购机汇网络有限公司\",\n  \"金额\": \"￥2987.18\",\n  \"税额\": \"￥507.82\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_276",
+    "images": [
+      "dataset/zzsptfp/b6.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n货物或服务的价款"
+      },
+      {
+        "role": "assistant",
+        "content": "￥2987.18"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_277",
+    "images": [
+      "dataset/zzsptfp/b16.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n把发票关键信息转成JSON数据"
+      },
+      {
+        "role": "assistant",
+        "content": "{\n  \"No\": \"12271532\",\n  \"开票日期\": \"2016年06月12日\",\n  \"名称\": \"深圳市购机汇网络有限公司\",\n  \"纳税人识别号\": \"440300083885931\",\n  \"税率\": \"17%\",\n  \"价税合计\": \"￥3495.00\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_278",
+    "images": [
+      "dataset/zzsptfp/b18.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n税金多少钱"
+      },
+      {
+        "role": "assistant",
+        "content": "￥507.82"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_279",
+    "images": [
+      "dataset/zzsptfp/b25.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n把发票关键信息转成JSON数据"
+      },
+      {
+        "role": "assistant",
+        "content": "{\n  \"No\": \"12270830\",\n  \"开票日期\": \"2016年06月12日\",\n  \"名称\": \"深圳市购机汇网络有限公司\",\n  \"纳税人识别号\": \"440300083885931\",\n  \"金额\": \"#2987.18\",\n  \"税率\": \"17%\",\n  \"税额\": \"￥507.82\",\n  \"价税合计\": \"￥3495.00\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_280",
+    "images": [
+      "dataset/zzsptfp/b0.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n看下商品金额"
+      },
+      {
+        "role": "assistant",
+        "content": "￥2987.18"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_281",
+    "images": [
+      "dataset/zzsptfp/b13.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n查一下这张票的号码"
+      },
+      {
+        "role": "assistant",
+        "content": "12270855"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_282",
+    "images": [
+      "dataset/zzsptfp/b9.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n商品售价及适用税率"
+      },
+      {
+        "role": "assistant",
+        "content": "售价￥2987.18，税率17%"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_283",
+    "images": [
+      "dataset/zzsptfp/b24.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n查一下这张票的号码"
+      },
+      {
+        "role": "assistant",
+        "content": "12270841"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_284",
+    "images": [
+      "dataset/zzsptfp/b14.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n简要介绍这张发票的内容"
+      },
+      {
+        "role": "assistant",
+        "content": "增值税发票：票号12270860，购方深圳市购机汇网络有限公司，总额￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_285",
+    "images": [
+      "dataset/zzsptfp/b8.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这票的编号查一下"
+      },
+      {
+        "role": "assistant",
+        "content": "12270864"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_286",
+    "images": [
+      "dataset/zzsptfp/b29.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n用JSON格式列出发票的主要字段"
+      },
+      {
+        "role": "assistant",
+        "content": "{\n  \"No\": \"12270793\",\n  \"开票日期\": \"2016年06月12日\",\n  \"名称\": \"深圳市购机汇网络有限公司\",\n  \"金额\": \"￥2987.18\",\n  \"税额\": \"￥507.82\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_287",
+    "images": [
+      "dataset/zzsptfp/b199.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这票的价格和税率情况"
+      },
+      {
+        "role": "assistant",
+        "content": "售价￥6405.98，税率17%"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_288",
+    "images": [
+      "dataset/zzsptfp/b23.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n不含税价是多少钱"
+      },
+      {
+        "role": "assistant",
+        "content": "￥2987.18"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_289",
+    "images": [
+      "dataset/zzsptfp/b16.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这票按几个点收税"
+      },
+      {
+        "role": "assistant",
+        "content": "17%"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_290",
+    "images": [
+      "dataset/zzsptfp/b3.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n把发票关键信息转成JSON数据"
+      },
+      {
+        "role": "assistant",
+        "content": "{\n  \"No\": \"12269577\",\n  \"开票日期\": \"2016年06月12日\",\n  \"名称\": \"深圳市购机汇网络有限公司\",\n  \"纳税人识别号\": \"440300083885931\",\n  \"金额\": \"手2987.18\",\n  \"税率\": \"17%\",\n  \"税额\": \"￥507.82\",\n  \"价税合计\": \"￥3495.00\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_291",
+    "images": [
+      "dataset/zzsptfp/b27.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n含税价格是多少"
+      },
+      {
+        "role": "assistant",
+        "content": "￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_292",
+    "images": [
+      "dataset/zzsptfp/b13.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n看下购货方叫啥"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市购机汇网络有限公司"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_293",
+    "images": [
+      "dataset/zzsptfp/b23.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n把发票关键信息转成JSON数据"
+      },
+      {
+        "role": "assistant",
+        "content": "{\n  \"No\": \"12270840\",\n  \"开票日期\": \"2016年06月12日\",\n  \"名称\": \"深圳市购机汇网络有限公司\",\n  \"纳税人识别号\": \"440300083885931\",\n  \"金额\": \"￥2987.18\",\n  \"税率\": \"17%\",\n  \"税额\": \"￥507.82\",\n  \"价税合计\": \"￥3495.00\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_294",
+    "images": [
+      "dataset/zzsptfp/b17.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n购买方的完整信息包括哪些"
+      },
+      {
+        "role": "assistant",
+        "content": "企业名称：深圳市购机汇网络有限公司，税号：440300083885931，地址电话：深圳市龙华新区民治街道民治大道展科技大厦A12070755-23806606"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_295",
+    "images": [
+      "dataset/zzsptfp/b1.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n含税价格是多少"
+      },
+      {
+        "role": "assistant",
+        "content": "￥1417.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_296",
+    "images": [
+      "dataset/zzsptfp/b24.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n公司注册地址及联系方式"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市龙华新区民治街道民治大道展科技大屋#12070755-23806606"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_297",
+    "images": [
+      "dataset/zzsptfp/b0.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n买方企业的详细资料"
+      },
+      {
+        "role": "assistant",
+        "content": "企业名称：深圳市购机汇网络有限公司，税号：440300083885931，地址电话：深圳市龙华新区民治街道民治大道服#科技大厦#12070755-23806606"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_298",
+    "images": [
+      "dataset/zzsptfp/b3.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这票按几个点收税"
+      },
+      {
+        "role": "assistant",
+        "content": "17%"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_299",
+    "images": [
+      "dataset/zzsptfp/b1.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n抬头写的什么公司"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市购机汇网络有限公司"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_300",
+    "images": [
+      "dataset/zzsptfp/b26.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n购货单位地址电话信息"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市龙华新区民治街道民治大道展科技大厦A12070755-23806606"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_301",
+    "images": [
+      "dataset/zzsptfp/b201.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n含税价格是多少"
+      },
+      {
+        "role": "assistant",
+        "content": "￥7485.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_302",
+    "images": [
+      "dataset/zzsptfp/b19.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n买方的通讯地址和联系电话"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市龙华新区民治街道民治大道展科技大厦A12070755-23806606"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_303",
+    "images": [
+      "dataset/zzsptfp/b198.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n财务需要的金额信息汇总"
+      },
+      {
+        "role": "assistant",
+        "content": "金额手6405.98，税额￥1089.02，合计￥7495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_304",
+    "images": [
+      "dataset/zzsptfp/b198.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n把发票关键信息转成JSON数据"
+      },
+      {
+        "role": "assistant",
+        "content": "{\n  \"No\": \"12270257\",\n  \"开票日期\": \"2016年06月12日\",\n  \"名称\": \"深圳市购机汇网络有限公司\",\n  \"纳税人识别号\": \"440300083885931\",\n  \"金额\": \"手6405.98\",\n  \"税率\": \"17%\",\n  \"税额\": \"￥1089.02\",\n  \"价税合计\": \"￥7495.00\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_305",
+    "images": [
+      "dataset/zzsptfp/b12.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n核算一下：金额、税额、合计分别是多少"
+      },
+      {
+        "role": "assistant",
+        "content": "金额￥2987.18，税额￥507.82，合计￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_306",
+    "images": [
+      "dataset/zzsptfp/b6.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n商品售价及适用税率"
+      },
+      {
+        "role": "assistant",
+        "content": "售价￥2987.18，税率17%"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_307",
+    "images": [
+      "dataset/zzsptfp/b199.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n购货单位地址电话信息"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市龙华新区民治街道民治大道展科技大厦A12070755-23806606"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_308",
+    "images": [
+      "dataset/zzsptfp/b10.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n购买方的完整信息包括哪些"
+      },
+      {
+        "role": "assistant",
+        "content": "企业名称：深圳市购机汇网络有限公司，税号：440300083885931，地址电话：深圳市龙华新区民治街道民治大道展酒科技大厦12070755-23806606"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_309",
+    "images": [
+      "dataset/zzsptfp/b17.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n收款银行和账号"
+      },
+      {
+        "role": "assistant",
+        "content": "中国工商银行股份有限公司深圳园岭支行4000024709200172809"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_310",
+    "images": [
+      "dataset/zzsptfp/b199.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n买方的税务编码"
+      },
+      {
+        "role": "assistant",
+        "content": "440300083885931"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_311",
+    "images": [
+      "dataset/zzsptfp/b22.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n商品售价及适用税率"
+      },
+      {
+        "role": "assistant",
+        "content": "售价￥2987.18，税率17%"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_312",
+    "images": [
+      "dataset/zzsptfp/b198.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n购货单位地址电话信息"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市龙华新区民冶街道民治大道震科技大厦&12070755-23806606"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_313",
+    "images": [
+      "dataset/zzsptfp/b4.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n看下购货方叫啥"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市购机汇网络有限公司"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_314",
+    "images": [
+      "dataset/zzsptfp/b22.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n汇款账户信息"
+      },
+      {
+        "role": "assistant",
+        "content": "中国工商银行股份有限公司深圳园岭支行4000024709200172808"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_315",
+    "images": [
+      "dataset/zzsptfp/b199.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n把发票关键信息转成JSON数据"
+      },
+      {
+        "role": "assistant",
+        "content": "{\n  \"No\": \"12270238\",\n  \"名称\": \"深圳市购机汇网络有限公司\",\n  \"纳税人识别号\": \"440300083885931\",\n  \"金额\": \"￥6405.98\",\n  \"税率\": \"17%\",\n  \"税额\": \"￥1089.02\",\n  \"价税合计\": \"￥7495.00\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_316",
+    "images": [
+      "dataset/zzsptfp/b20.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n抬头写的什么公司"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市购机汇网络有限公司"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_317",
+    "images": [
+      "dataset/zzsptfp/b10.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n买方的税务编码"
+      },
+      {
+        "role": "assistant",
+        "content": "440300083885931"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_318",
+    "images": [
+      "dataset/zzsptfp/b0.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n查一下这张票的号码"
+      },
+      {
+        "role": "assistant",
+        "content": "12271524"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_319",
+    "images": [
+      "dataset/zzsptfp/b26.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n核算一下：金额、税额、合计分别是多少"
+      },
+      {
+        "role": "assistant",
+        "content": "金额￥2987.18，税额￥507.82，合计￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_320",
+    "images": [
+      "dataset/zzsptfp/b199.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n用JSON格式列出发票的主要字段"
+      },
+      {
+        "role": "assistant",
+        "content": "{\n  \"No\": \"12270238\",\n  \"名称\": \"深圳市购机汇网络有限公司\",\n  \"金额\": \"￥6405.98\",\n  \"税额\": \"￥1089.02\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_321",
+    "images": [
+      "dataset/zzsptfp/b199.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n银行开户信息是什么"
+      },
+      {
+        "role": "assistant",
+        "content": "中国工商银行股份有限公司深圳园岭支行4000024709200172809"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_322",
+    "images": [
+      "dataset/zzsptfp/b20.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n用JSON格式列出发票的主要字段"
+      },
+      {
+        "role": "assistant",
+        "content": "{\n  \"No\": \"12271541\",\n  \"开票日期\": \"2016年06月12日\",\n  \"名称\": \"深圳市购机汇网络有限公司\",\n  \"金额\": \"￥2987.18\",\n  \"税额\": \"￥507.82\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_323",
+    "images": [
+      "dataset/zzsptfp/b140.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n用JSON格式列出发票的主要字段"
+      },
+      {
+        "role": "assistant",
+        "content": "{\n  \"No\": \"13102225\",\n  \"开票日期\": \"2016年06月08日\",\n  \"名称\": \"深圳市购机汇网络有限公司\",\n  \"金额\": \"￥597.44\",\n  \"税额\": \"￥101.56\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_324",
+    "images": [
+      "dataset/zzsptfp/b137.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n合计金额栏是多少"
+      },
+      {
+        "role": "assistant",
+        "content": "￥597.44"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_325",
+    "images": [
+      "dataset/zzsptfp/b140.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n核算一下：金额、税额、合计分别是多少"
+      },
+      {
+        "role": "assistant",
+        "content": "金额￥597.44，税额￥101.56，合计￥669.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_326",
+    "images": [
+      "dataset/zzsptfp/b11.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n票据日期是几月几号"
+      },
+      {
+        "role": "assistant",
+        "content": "2016年06月12日"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_327",
+    "images": [
+      "dataset/zzsptfp/b137.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n用JSON格式列出发票的主要字段"
+      },
+      {
+        "role": "assistant",
+        "content": "{\n  \"No\": \"12263872\",\n  \"开票日期\": \"2016年06月08日\",\n  \"名称\": \"深圳市购机汇网络有限公司\",\n  \"金额\": \"￥597.44\",\n  \"税额\": \"￥101.56\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_328",
+    "images": [
+      "dataset/zzsptfp/b3.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n应缴税款金额"
+      },
+      {
+        "role": "assistant",
+        "content": "￥507.82"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_329",
+    "images": [
+      "dataset/zzsptfp/b15.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n查一下这张票的号码"
+      },
+      {
+        "role": "assistant",
+        "content": "12271530"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_330",
+    "images": [
+      "dataset/zzsptfp/b16.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n用JSON格式列出发票的主要字段"
+      },
+      {
+        "role": "assistant",
+        "content": "{\n  \"No\": \"12271532\",\n  \"开票日期\": \"2016年06月12日\",\n  \"名称\": \"深圳市购机汇网络有限公司\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_331",
+    "images": [
+      "dataset/zzsptfp/b29.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n购买方的完整信息包括哪些"
+      },
+      {
+        "role": "assistant",
+        "content": "企业名称：深圳市购机汇网络有限公司，税号：440300083885931，地址电话：深圳市龙华新区民治街道民治大道展科技大厦A120707D5-23806606"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_332",
+    "images": [
+      "dataset/zzsptfp/b4.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n发票的核心信息概述"
+      },
+      {
+        "role": "assistant",
+        "content": "增值税发票：票号12270870，购方深圳市购机汇网络有限公司，总额￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_333",
+    "images": [
+      "dataset/zzsptfp/b4.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n核算一下：金额、税额、合计分别是多少"
+      },
+      {
+        "role": "assistant",
+        "content": "金额手2987.18，税额￥507.82，合计￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_334",
+    "images": [
+      "dataset/zzsptfp/b18.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n买方的通讯地址和联系电话"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市龙华新区民治街道民治大道展泪科技大厦A12070755-23806606"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_335",
+    "images": [
+      "dataset/zzsptfp/b23.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n实际支付金额"
+      },
+      {
+        "role": "assistant",
+        "content": "￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_336",
+    "images": [
+      "dataset/zzsptfp/b201.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n查一下这张票的号码"
+      },
+      {
+        "role": "assistant",
+        "content": "12270808"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_337",
+    "images": [
+      "dataset/zzsptfp/b18.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n查一下这张票的号码"
+      },
+      {
+        "role": "assistant",
+        "content": "12271543"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_338",
+    "images": [
+      "dataset/zzsptfp/b138.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n购买方的完整信息包括哪些"
+      },
+      {
+        "role": "assistant",
+        "content": "企业名称：深圳市购机汇网络有限公司，税号：440300083885931，地址电话：深圳市龙华新区民治街道民治大道展酒科技大厦A12070755-28806606"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_339",
+    "images": [
+      "dataset/zzsptfp/b14.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n用JSON格式列出发票的主要字段"
+      },
+      {
+        "role": "assistant",
+        "content": "{\n  \"No\": \"12270860\",\n  \"名称\": \"深圳市购机汇网络有限公司\",\n  \"税额\": \"￥507.82\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_340",
+    "images": [
+      "dataset/zzsptfp/b12.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n货物或服务的价款"
+      },
+      {
+        "role": "assistant",
+        "content": "￥2987.18"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_341",
+    "images": [
+      "dataset/zzsptfp/b15.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这票按几个点收税"
+      },
+      {
+        "role": "assistant",
+        "content": "17%"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_342",
+    "images": [
+      "dataset/zzsptfp/b7.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n用JSON格式列出发票的主要字段"
+      },
+      {
+        "role": "assistant",
+        "content": "{\n  \"No\": \"12270862\",\n  \"开票日期\": \"2016年06月12日\",\n  \"名称\": \"深圳市购机汇网络有限公司\",\n  \"金额\": \"￥2987.18\",\n  \"税额\": \"￥507.82\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_343",
+    "images": [
+      "dataset/zzsptfp/b200.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n把发票关键信息转成JSON数据"
+      },
+      {
+        "role": "assistant",
+        "content": "{\n  \"No\": \"12270258\",\n  \"开票日期\": \"2016年06月12日\",\n  \"名称\": \"深圳市购机汇网络有限公司\",\n  \"纳税人识别号\": \"440300083885931\",\n  \"金额\": \"手6397.43\",\n  \"税率\": \"17%\",\n  \"税额\": \"￥1087.57\",\n  \"价税合计\": \"￥7485.00\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_344",
+    "images": [
+      "dataset/zzsptfp/b2.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n税金多少钱"
+      },
+      {
+        "role": "assistant",
+        "content": "￥507.82"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_345",
+    "images": [
+      "dataset/zzsptfp/b4.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n总共应付多少钱"
+      },
+      {
+        "role": "assistant",
+        "content": "￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_346",
+    "images": [
+      "dataset/zzsptfp/b140.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n大写金额是多少"
+      },
+      {
+        "role": "assistant",
+        "content": "￥669.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_347",
+    "images": [
+      "dataset/zzsptfp/b5.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n看下购货方叫啥"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市购机汇网络有限公司"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_348",
+    "images": [
+      "dataset/zzsptfp/b9.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n把发票关键信息转成JSON数据"
+      },
+      {
+        "role": "assistant",
+        "content": "{\n  \"No\": \"12269559\",\n  \"开票日期\": \"2016年06月12日\",\n  \"名称\": \"深圳市购机汇网络有限公司\",\n  \"纳税人识别号\": \"440300083885931\",\n  \"金额\": \"￥2987.18\",\n  \"税率\": \"17%\",\n  \"税额\": \"￥507.82\",\n  \"价税合计\": \"￥3495.00\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_349",
+    "images": [
+      "dataset/zzsptfp/b3.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n收款银行和账号"
+      },
+      {
+        "role": "assistant",
+        "content": "中国工商银行股份有限公司深训园龄支行4000024709200172809"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_350",
+    "images": [
+      "dataset/zzsptfp/b18.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n购买方的完整信息包括哪些"
+      },
+      {
+        "role": "assistant",
+        "content": "企业名称：深圳市购机汇网络有限公司，税号：440300083885931，地址电话：深圳市龙华新区民治街道民治大道展泪科技大厦A12070755-23806606"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_351",
+    "images": [
+      "dataset/zzsptfp/b12.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n用JSON格式列出发票的主要字段"
+      },
+      {
+        "role": "assistant",
+        "content": "{\n  \"No\": \"12269568\",\n  \"开票日期\": \"2016年06月12日\",\n  \"名称\": \"深圳市购机汇网络有限公司\",\n  \"金额\": \"￥2987.18\",\n  \"税额\": \"￥507.82\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_352",
+    "images": [
+      "dataset/zzsptfp/b5.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这票的价格和税率情况"
+      },
+      {
+        "role": "assistant",
+        "content": "售价￥2987.18，税率17%"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_353",
+    "images": [
+      "dataset/zzsptfp/b3.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n票据日期是几月几号"
+      },
+      {
+        "role": "assistant",
+        "content": "2016年06月12日"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_354",
+    "images": [
+      "dataset/zzsptfp/b23.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n应缴税款金额"
+      },
+      {
+        "role": "assistant",
+        "content": "￥507.82"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_355",
+    "images": [
+      "dataset/zzsptfp/b0.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n把发票关键信息转成JSON数据"
+      },
+      {
+        "role": "assistant",
+        "content": "{\n  \"No\": \"12271524\",\n  \"开票日期\": \"2016年06月12日\",\n  \"名称\": \"深圳市购机汇网络有限公司\",\n  \"纳税人识别号\": \"440300083885931\",\n  \"金额\": \"￥2987.18\",\n  \"税率\": \"17%\",\n  \"税额\": \"￥507.82\",\n  \"价税合计\": \"￥3495.00\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_356",
+    "images": [
+      "dataset/zzsptfp/b137.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n含税价格是多少"
+      },
+      {
+        "role": "assistant",
+        "content": "￥699.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_357",
+    "images": [
+      "dataset/zzsptfp/b140.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这票是几号开的"
+      },
+      {
+        "role": "assistant",
+        "content": "2016年06月08日"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_358",
+    "images": [
+      "dataset/zzsptfp/b139.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n税点是多少"
+      },
+      {
+        "role": "assistant",
+        "content": "17%"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_359",
+    "images": [
+      "dataset/zzsptfp/b201.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n收款银行和账号"
+      },
+      {
+        "role": "assistant",
+        "content": "中国工商银行股份有限公司挥圳园支行4000024709200172809"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_360",
+    "images": [
+      "dataset/zzsptfp/b22.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这票开给谁了"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市购机汇网络有限公司"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_361",
+    "images": [
+      "dataset/zzsptfp/b20.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n票号多少"
+      },
+      {
+        "role": "assistant",
+        "content": "12271541"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_362",
+    "images": [
+      "dataset/zzsptfp/b12.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n帮我看下票号以及开票时间"
+      },
+      {
+        "role": "assistant",
+        "content": "票号：12269568，开票时间：2016年06月12日"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_363",
+    "images": [
+      "dataset/zzsptfp/b26.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n查下购买方税号"
+      },
+      {
+        "role": "assistant",
+        "content": "440300083885931"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_364",
+    "images": [
+      "dataset/zzsptfp/b30.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这票的价格和税率情况"
+      },
+      {
+        "role": "assistant",
+        "content": "售价￥2987.18，税率17%"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_365",
+    "images": [
+      "dataset/zzsptfp/b199.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n发票的核心信息概述"
+      },
+      {
+        "role": "assistant",
+        "content": "增值税发票：票号12270238，购方深圳市购机汇网络有限公司，总额￥7495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_366",
+    "images": [
+      "dataset/zzsptfp/b140.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n发票代码后面的号码是什么"
+      },
+      {
+        "role": "assistant",
+        "content": "13102225"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_367",
+    "images": [
+      "dataset/zzsptfp/b139.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n把发票关键信息转成JSON数据"
+      },
+      {
+        "role": "assistant",
+        "content": "{\n  \"No\": \"12186138\",\n  \"开票日期\": \"2016年06月08日\",\n  \"名称\": \"深圳市购机汇网络有限公司\",\n  \"纳税人识别号\": \"440300083885931\",\n  \"金额\": \"￥597.44\",\n  \"税率\": \"17%\",\n  \"税额\": \"￥101.56\",\n  \"价税合计\": \"￥699.00\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_368",
+    "images": [
+      "dataset/zzsptfp/b33.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n增值税税率多少"
+      },
+      {
+        "role": "assistant",
+        "content": "17%"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_369",
+    "images": [
+      "dataset/zzsptfp/b1.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n购货单位地址电话信息"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市龙华新区民治街道民治大道展滘科技大厦A12070755-23806666"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_370",
+    "images": [
+      "dataset/zzsptfp/b8.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n帮我看下票号以及开票时间"
+      },
+      {
+        "role": "assistant",
+        "content": "票号：12270864，开票时间：2016年06月12日"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_371",
+    "images": [
+      "dataset/zzsptfp/b18.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n实际支付金额"
+      },
+      {
+        "role": "assistant",
+        "content": "￥3495-00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_372",
+    "images": [
+      "dataset/zzsptfp/b2.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n含税价格是多少"
+      },
+      {
+        "role": "assistant",
+        "content": "￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_373",
+    "images": [
+      "dataset/zzsptfp/b17.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n发票的核心信息概述"
+      },
+      {
+        "role": "assistant",
+        "content": "增值税发票：票号12271544，购方深圳市购机汇网络有限公司，总额￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_374",
+    "images": [
+      "dataset/zzsptfp/b0.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n增值税额是多少"
+      },
+      {
+        "role": "assistant",
+        "content": "￥507.82"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_375",
+    "images": [
+      "dataset/zzsptfp/b201.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n用JSON格式列出发票的主要字段"
+      },
+      {
+        "role": "assistant",
+        "content": "{\n  \"No\": \"12270808\",\n  \"开票日期\": \"2016年06月12日\",\n  \"名称\": \"深圳市购机汇网络有限公司\",\n  \"金额\": \"￥6397.43\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_376",
+    "images": [
+      "dataset/zzsptfp/b30.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n买方的通讯地址和联系电话"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市龙华新区民治街道民治大道展科技大厦A12070755-23806606"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_377",
+    "images": [
+      "dataset/zzsptfp/b20.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n增值税税率多少"
+      },
+      {
+        "role": "assistant",
+        "content": "17%"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_378",
+    "images": [
+      "dataset/zzsptfp/b29.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这张票的关键要素有哪些"
+      },
+      {
+        "role": "assistant",
+        "content": "增值税发票：票号12270793，日期2016年06月12日，购方深圳市购机汇网络有限公司，总额￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_379",
+    "images": [
+      "dataset/zzsptfp/b11.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n买方企业的详细资料"
+      },
+      {
+        "role": "assistant",
+        "content": "企业名称：深圳市购机汇网络有限公司，税号：440300083885931，地址电话：深圳市龙华新区民治街道民治大道厦湖科技大厦12070755-23806606"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_380",
+    "images": [
+      "dataset/zzsptfp/b198.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n税点是多少"
+      },
+      {
+        "role": "assistant",
+        "content": "17%"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_381",
+    "images": [
+      "dataset/zzsptfp/b139.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n财务需要的金额信息汇总"
+      },
+      {
+        "role": "assistant",
+        "content": "金额￥597.44，税额￥101.56，合计￥699.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_382",
+    "images": [
+      "dataset/zzsptfp/b20.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n买方企业的详细资料"
+      },
+      {
+        "role": "assistant",
+        "content": "企业名称：深圳市购机汇网络有限公司，税号：440300083885931，地址电话：深圳市龙华新区民治街道民治大道展科技大厦A12070755-23806606"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_383",
+    "images": [
+      "dataset/zzsptfp/b19.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n买方企业的详细资料"
+      },
+      {
+        "role": "assistant",
+        "content": "企业名称：深圳市购机汇网络有限公司，税号：440300083885931，地址电话：深圳市龙华新区民治街道民治大道展科技大厦A12070755-23806606"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_384",
+    "images": [
+      "dataset/zzsptfp/b5.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n公司注册地址及联系方式"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市龙华新区民治街道民治大道展活科技大厦A12070755-23806606"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_385",
+    "images": [
+      "dataset/zzsptfp/b9.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n核算一下：金额、税额、合计分别是多少"
+      },
+      {
+        "role": "assistant",
+        "content": "金额￥2987.18，税额￥507.82，合计￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_386",
+    "images": [
+      "dataset/zzsptfp/b22.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n不含税价是多少钱"
+      },
+      {
+        "role": "assistant",
+        "content": "￥2987.18"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_387",
+    "images": [
+      "dataset/zzsptfp/b10.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n公司注册地址及联系方式"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市龙华新区民治街道民治大道展酒科技大厦12070755-23806606"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_388",
+    "images": [
+      "dataset/zzsptfp/b2.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这票的编号查一下"
+      },
+      {
+        "role": "assistant",
+        "content": "12269558"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_389",
+    "images": [
+      "dataset/zzsptfp/b139.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n用JSON格式列出发票的主要字段"
+      },
+      {
+        "role": "assistant",
+        "content": "{\n  \"No\": \"12186138\",\n  \"开票日期\": \"2016年06月08日\",\n  \"名称\": \"深圳市购机汇网络有限公司\",\n  \"金额\": \"￥597.44\",\n  \"税额\": \"￥101.56\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_390",
+    "images": [
+      "dataset/zzsptfp/b18.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n查下购买方税号"
+      },
+      {
+        "role": "assistant",
+        "content": "440300083885931"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_391",
+    "images": [
+      "dataset/zzsptfp/b7.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n应缴税款金额"
+      },
+      {
+        "role": "assistant",
+        "content": "￥507.82"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_392",
+    "images": [
+      "dataset/zzsptfp/b24.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n把发票关键信息转成JSON数据"
+      },
+      {
+        "role": "assistant",
+        "content": "{\n  \"No\": \"12270841\",\n  \"开票日期\": \"2016年06月12日\",\n  \"名称\": \"深圳市购机汇网络有限公司\",\n  \"纳税人识别号\": \"440300083885931\",\n  \"金额\": \"￥2987.18\",\n  \"税率\": \"17%\",\n  \"税额\": \"￥507.82\",\n  \"价税合计\": \"￥3495.00\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_393",
+    "images": [
+      "dataset/zzsptfp/b139.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n买方企业的详细资料"
+      },
+      {
+        "role": "assistant",
+        "content": "企业名称：深圳市购机汇网络有限公司，税号：440300083885931，地址电话：深圳市龙华新区民治街道民治大道股酒科技大厦412070755-23806606"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_394",
+    "images": [
+      "dataset/zzsptfp/b27.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n商品售价及适用税率"
+      },
+      {
+        "role": "assistant",
+        "content": "售价手2987.18，税率17%"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_395",
+    "images": [
+      "dataset/zzsptfp/b19.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n大写金额是多少"
+      },
+      {
+        "role": "assistant",
+        "content": "￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_396",
+    "images": [
+      "dataset/zzsptfp/b5.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n用JSON格式列出发票的主要字段"
+      },
+      {
+        "role": "assistant",
+        "content": "{\n  \"No\": \"12270824\",\n  \"开票日期\": \"2016年06月12日\",\n  \"名称\": \"深圳市购机汇网络有限公司\",\n  \"金额\": \"￥2987.18\",\n  \"税额\": \"鄂507.82\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_397",
+    "images": [
+      "dataset/zzsptfp/b4.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n用JSON格式列出发票的主要字段"
+      },
+      {
+        "role": "assistant",
+        "content": "{\n  \"No\": \"12270870\",\n  \"名称\": \"深圳市购机汇网络有限公司\",\n  \"金额\": \"手2987.18\",\n  \"税额\": \"￥507.82\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_398",
+    "images": [
+      "dataset/zzsptfp/b23.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这票的价格和税率情况"
+      },
+      {
+        "role": "assistant",
+        "content": "售价￥2987.18，税率17%"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_399",
+    "images": [
+      "dataset/zzsptfp/b201.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n帮我看下票号以及开票时间"
+      },
+      {
+        "role": "assistant",
+        "content": "票号：12270808，开票时间：2016年06月12日"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_400",
+    "images": [
+      "dataset/zzsptfp/b6.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n购买方的完整信息包括哪些"
+      },
+      {
+        "role": "assistant",
+        "content": "企业名称：深圳市购机汇网络有限公司，税号：440300083885931，地址电话：深圳市龙华新区民治街道民治大道股滘科技大厦A12070755-23806606"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_401",
+    "images": [
+      "dataset/zzsptfp/b6.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n增值税税率多少"
+      },
+      {
+        "role": "assistant",
+        "content": "17%"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_402",
+    "images": [
+      "dataset/zzsptfp/b198.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n实际支付金额"
+      },
+      {
+        "role": "assistant",
+        "content": "￥7495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_403",
+    "images": [
+      "dataset/zzsptfp/b22.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n用JSON格式列出发票的主要字段"
+      },
+      {
+        "role": "assistant",
+        "content": "{\n  \"No\": \"12269549\",\n  \"开票日期\": \"2016年06月12日\",\n  \"名称\": \"深圳市购机汇网络有限公司\",\n  \"金额\": \"￥2987.18\",\n  \"税额\": \"￥507.82\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_404",
+    "images": [
+      "dataset/zzsptfp/b6.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n应缴税款金额"
+      },
+      {
+        "role": "assistant",
+        "content": "￥507.82"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_405",
+    "images": [
+      "dataset/zzsptfp/b4.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n买方的通讯地址和联系电话"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市龙华新区民治街道民治大道震消科技大厦A12070755-23806606"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_406",
+    "images": [
+      "dataset/zzsptfp/b19.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n税点是多少"
+      },
+      {
+        "role": "assistant",
+        "content": "17%"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_407",
+    "images": [
+      "dataset/zzsptfp/b11.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n帮我看下票号以及开票时间"
+      },
+      {
+        "role": "assistant",
+        "content": "票号：12270837，开票时间：2016年06月12日"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_408",
+    "images": [
+      "dataset/zzsptfp/b200.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n买方的通讯地址和联系电话"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市龙华新区民治街道民治大道展科技大厦A12070755-23808606"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_409",
+    "images": [
+      "dataset/zzsptfp/b200.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n查下购买方税号"
+      },
+      {
+        "role": "assistant",
+        "content": "440300083885931"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_410",
+    "images": [
+      "dataset/zzsptfp/b11.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这票的价格和税率情况"
+      },
+      {
+        "role": "assistant",
+        "content": "售价￥2987.18，税率17%"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_411",
+    "images": [
+      "dataset/zzsptfp/b11.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n把发票关键信息转成JSON数据"
+      },
+      {
+        "role": "assistant",
+        "content": "{\n  \"No\": \"12270837\",\n  \"开票日期\": \"2016年06月12日\",\n  \"名称\": \"深圳市购机汇网络有限公司\",\n  \"纳税人识别号\": \"440300083885931\",\n  \"金额\": \"￥2987.18\",\n  \"税率\": \"17%\",\n  \"税额\": \"￥507.82\",\n  \"价税合计\": \"￥3495.00\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_412",
+    "images": [
+      "dataset/zzsptfp/b137.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n把发票关键信息转成JSON数据"
+      },
+      {
+        "role": "assistant",
+        "content": "{\n  \"No\": \"12263872\",\n  \"开票日期\": \"2016年06月08日\",\n  \"名称\": \"深圳市购机汇网络有限公司\",\n  \"纳税人识别号\": \"440300083885931\",\n  \"金额\": \"￥597.44\",\n  \"税率\": \"17%\",\n  \"税额\": \"￥101.56\",\n  \"价税合计\": \"￥699.00\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_413",
+    "images": [
+      "dataset/zzsptfp/b8.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n银行开户信息是什么"
+      },
+      {
+        "role": "assistant",
+        "content": "中国工商银行股份有限公司保请图支行4000024709200172809"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_414",
+    "images": [
+      "dataset/zzsptfp/b24.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n票据日期是几月几号"
+      },
+      {
+        "role": "assistant",
+        "content": "2016年06月12日"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_415",
+    "images": [
+      "dataset/zzsptfp/b10.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这张票的基本信息：票号和日期"
+      },
+      {
+        "role": "assistant",
+        "content": "票号：12270859，开票时间：2016年06月12日"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_416",
+    "images": [
+      "dataset/zzsptfp/b18.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n看一下开票时间"
+      },
+      {
+        "role": "assistant",
+        "content": "2016年06月12日"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_417",
+    "images": [
+      "dataset/zzsptfp/b25.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n财务需要的金额信息汇总"
+      },
+      {
+        "role": "assistant",
+        "content": "金额#2987.18，税额￥507.82，合计￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_418",
+    "images": [
+      "dataset/zzsptfp/b11.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n用JSON格式列出发票的主要字段"
+      },
+      {
+        "role": "assistant",
+        "content": "{\n  \"No\": \"12270837\",\n  \"开票日期\": \"2016年06月12日\",\n  \"名称\": \"深圳市购机汇网络有限公司\",\n  \"金额\": \"￥2987.18\",\n  \"税额\": \"￥507.82\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_419",
+    "images": [
+      "dataset/zzsptfp/b137.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n购货单位地址电话信息"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市龙华新区民治街道民治大道展湘科技大厦A12070755-23806606"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_420",
+    "images": [
+      "dataset/zzsptfp/b20.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n发票的核心信息概述"
+      },
+      {
+        "role": "assistant",
+        "content": "增值税发票：票号12271541，日期2016年06月12日，购方深圳市购机汇网络有限公司，总额￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_421",
+    "images": [
+      "dataset/zzsptfp/b26.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n查一下这张票的号码"
+      },
+      {
+        "role": "assistant",
+        "content": "12270798"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_422",
+    "images": [
+      "dataset/zzsptfp/b14.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n税务登记号是多少"
+      },
+      {
+        "role": "assistant",
+        "content": "440300083885931"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_423",
+    "images": [
+      "dataset/zzsptfp/b12.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n购货单位地址电话信息"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市龙华新区民治街道民治大道展科技大厦#12070755-23806606"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_424",
+    "images": [
+      "dataset/zzsptfp/b16.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这票是几号开的"
+      },
+      {
+        "role": "assistant",
+        "content": "2016年06月12日"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_425",
+    "images": [
+      "dataset/zzsptfp/b25.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n汇款账户信息"
+      },
+      {
+        "role": "assistant",
+        "content": "中国工商银行股份有限公司深圳园岭支行4000024709200172809"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_426",
+    "images": [
+      "dataset/zzsptfp/b27.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n帮我看下票号以及开票时间"
+      },
+      {
+        "role": "assistant",
+        "content": "票号：12270871，开票时间：2016年06月12日"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_427",
+    "images": [
+      "dataset/zzsptfp/b20.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n银行开户信息是什么"
+      },
+      {
+        "role": "assistant",
+        "content": "中国工商银行股份有限公司深圳园龄支行4000024709200172809"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_428",
+    "images": [
+      "dataset/zzsptfp/b139.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n税务登记号是多少"
+      },
+      {
+        "role": "assistant",
+        "content": "440300083885931"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_429",
+    "images": [
+      "dataset/zzsptfp/b3.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这票的价格和税率情况"
+      },
+      {
+        "role": "assistant",
+        "content": "售价手2987.18，税率17%"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_430",
+    "images": [
+      "dataset/zzsptfp/b27.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n购买方的完整信息包括哪些"
+      },
+      {
+        "role": "assistant",
+        "content": "企业名称：深圳市购机汇网络有限公司，税号：440300083885931，地址电话：深圳市龙华新区民治街道民治大道展酒科技大厦A12070755-23806606"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_431",
+    "images": [
+      "dataset/zzsptfp/b9.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n看下购货方叫啥"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市购机汇网络有限公司"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_432",
+    "images": [
+      "dataset/zzsptfp/b25.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n帮我看下票号以及开票时间"
+      },
+      {
+        "role": "assistant",
+        "content": "票号：12270830，开票时间：2016年06月12日"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_433",
+    "images": [
+      "dataset/zzsptfp/b29.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n税点是多少"
+      },
+      {
+        "role": "assistant",
+        "content": "17%"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_434",
+    "images": [
+      "dataset/zzsptfp/b6.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n实际支付金额"
+      },
+      {
+        "role": "assistant",
+        "content": "￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_435",
+    "images": [
+      "dataset/zzsptfp/b5.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n买方的税务编码"
+      },
+      {
+        "role": "assistant",
+        "content": "440300083885931"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_436",
+    "images": [
+      "dataset/zzsptfp/b5.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这票按几个点收税"
+      },
+      {
+        "role": "assistant",
+        "content": "17%"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_437",
+    "images": [
+      "dataset/zzsptfp/b17.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n查下购买方税号"
+      },
+      {
+        "role": "assistant",
+        "content": "440300083885931"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_438",
+    "images": [
+      "dataset/zzsptfp/b198.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n用JSON格式列出发票的主要字段"
+      },
+      {
+        "role": "assistant",
+        "content": "{\n  \"No\": \"12270257\",\n  \"开票日期\": \"2016年06月12日\",\n  \"名称\": \"深圳市购机汇网络有限公司\",\n  \"金额\": \"手6405.98\",\n  \"税额\": \"￥1089.02\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_439",
+    "images": [
+      "dataset/zzsptfp/b23.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n购买方的完整信息包括哪些"
+      },
+      {
+        "role": "assistant",
+        "content": "企业名称：深圳市购机汇网络有限公司，税号：440300083885931，地址电话：深圳市龙华新区民治街道民治大道展活科技大厦A12070766-23806606"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_440",
+    "images": [
+      "dataset/zzsptfp/b33.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n把发票关键信息转成JSON数据"
+      },
+      {
+        "role": "assistant",
+        "content": "{\n  \"No\": \"12269563\",\n  \"开票日期\": \"2016年06月12日\",\n  \"名称\": \"深圳市购机汇网络有限公司\",\n  \"纳税人识别号\": \"440300083885931\",\n  \"金额\": \"￥2987.18\",\n  \"税率\": \"17%\",\n  \"价税合计\": \"￥3495.00\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_441",
+    "images": [
+      "dataset/zzsptfp/b199.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n买方单位名称"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市购机汇网络有限公司"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_442",
+    "images": [
+      "dataset/zzsptfp/b14.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n抬头写的什么公司"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市购机汇网络有限公司"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_443",
+    "images": [
+      "dataset/zzsptfp/b139.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n公司注册地址及联系方式"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市龙华新区民治街道民治大道股酒科技大厦412070755-23806606"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_444",
+    "images": [
+      "dataset/zzsptfp/b24.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这票的价格和税率情况"
+      },
+      {
+        "role": "assistant",
+        "content": "售价￥2987.18，税率17%"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_445",
+    "images": [
+      "dataset/zzsptfp/b10.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n简要介绍这张发票的内容"
+      },
+      {
+        "role": "assistant",
+        "content": "增值税发票：票号12270859，日期2016年06月12日，购方深圳市购机汇网络有限公司，总额￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_446",
+    "images": [
+      "dataset/zzsptfp/b30.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n发票的核心信息概述"
+      },
+      {
+        "role": "assistant",
+        "content": "增值税发票：票号12270803，日期2016年06月12日，购方深圳市购机汇网络有限公司，总额￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_447",
+    "images": [
+      "dataset/zzsptfp/b201.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n把发票关键信息转成JSON数据"
+      },
+      {
+        "role": "assistant",
+        "content": "{\n  \"No\": \"12270808\",\n  \"开票日期\": \"2016年06月12日\",\n  \"名称\": \"深圳市购机汇网络有限公司\",\n  \"纳税人识别号\": \"440300083885931\",\n  \"金额\": \"￥6397.43\",\n  \"税率\": \"17%\",\n  \"价税合计\": \"￥7485.00\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_448",
+    "images": [
+      "dataset/zzsptfp/b140.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n税金多少钱"
+      },
+      {
+        "role": "assistant",
+        "content": "￥101.56"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_449",
+    "images": [
+      "dataset/zzsptfp/b19.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n看一下开票时间"
+      },
+      {
+        "role": "assistant",
+        "content": "2016年06月12日"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_450",
+    "images": [
+      "dataset/zzsptfp/b17.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n查一下这张票的号码"
+      },
+      {
+        "role": "assistant",
+        "content": "12271544"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_451",
+    "images": [
+      "dataset/zzsptfp/b33.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n合计金额栏是多少"
+      },
+      {
+        "role": "assistant",
+        "content": "￥2987.18"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_452",
+    "images": [
+      "dataset/zzsptfp/b24.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n税点是多少"
+      },
+      {
+        "role": "assistant",
+        "content": "17%"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_453",
+    "images": [
+      "dataset/zzsptfp/b139.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n帮我看下票号以及开票时间"
+      },
+      {
+        "role": "assistant",
+        "content": "票号：12186138，开票时间：2016年06月08日"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_454",
+    "images": [
+      "dataset/zzsptfp/b14.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n购买方的完整信息包括哪些"
+      },
+      {
+        "role": "assistant",
+        "content": "企业名称：深圳市购机汇网络有限公司，税号：440300083885931，地址电话：深圳市龙华新区民治街道民治大道震泪科技大厦A12070755-23808606"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_455",
+    "images": [
+      "dataset/zzsptfp/b17.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n买方单位名称"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市购机汇网络有限公司"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_456",
+    "images": [
+      "dataset/zzsptfp/b3.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n用JSON格式列出发票的主要字段"
+      },
+      {
+        "role": "assistant",
+        "content": "{\n  \"No\": \"12269577\",\n  \"开票日期\": \"2016年06月12日\",\n  \"名称\": \"深圳市购机汇网络有限公司\",\n  \"金额\": \"手2987.18\",\n  \"税额\": \"￥507.82\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_457",
+    "images": [
+      "dataset/zzsptfp/b22.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n买方企业的详细资料"
+      },
+      {
+        "role": "assistant",
+        "content": "企业名称：深圳市购机汇网络有限公司，税号：440300083885931，地址电话：电"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_458",
+    "images": [
+      "dataset/zzsptfp/b139.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n应缴税款金额"
+      },
+      {
+        "role": "assistant",
+        "content": "￥101.56"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_459",
+    "images": [
+      "dataset/zzsptfp/b198.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n买方的税务编码"
+      },
+      {
+        "role": "assistant",
+        "content": "440300083885931"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_460",
+    "images": [
+      "dataset/zzsptfp/b13.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n购买方的完整信息包括哪些"
+      },
+      {
+        "role": "assistant",
+        "content": "企业名称：深圳市购机汇网络有限公司，税号：440300083885931，地址电话：深圳市龙华新区民治街道民治大道科技大厦A12070755-23806606"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_461",
+    "images": [
+      "dataset/zzsptfp/b0.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n看一下开票时间"
+      },
+      {
+        "role": "assistant",
+        "content": "2016年06月12日"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_462",
+    "images": [
+      "dataset/zzsptfp/b14.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n查一下这张票的号码"
+      },
+      {
+        "role": "assistant",
+        "content": "12270860"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_463",
+    "images": [
+      "dataset/zzsptfp/b137.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n买方企业的详细资料"
+      },
+      {
+        "role": "assistant",
+        "content": "企业名称：深圳市购机汇网络有限公司，税号：440300083885931，地址电话：深圳市龙华新区民治街道民治大道展湘科技大厦A12070755-23806606"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_464",
+    "images": [
+      "dataset/zzsptfp/b6.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n买方的通讯地址和联系电话"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市龙华新区民治街道民治大道股滘科技大厦A12070755-23806606"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_465",
+    "images": [
+      "dataset/zzsptfp/b13.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n核算一下：金额、税额、合计分别是多少"
+      },
+      {
+        "role": "assistant",
+        "content": "金额￥2987.18，税额￥507.82，合计￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_466",
+    "images": [
+      "dataset/zzsptfp/b3.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这张票的基本信息：票号和日期"
+      },
+      {
+        "role": "assistant",
+        "content": "票号：12269577，开票时间：2016年06月12日"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_467",
+    "images": [
+      "dataset/zzsptfp/b26.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n汇款账户信息"
+      },
+      {
+        "role": "assistant",
+        "content": "中国工商银行股份有限公司深训园龄支行4000024709200172809"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_468",
+    "images": [
+      "dataset/zzsptfp/b19.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这票的编号查一下"
+      },
+      {
+        "role": "assistant",
+        "content": "12271542"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_469",
+    "images": [
+      "dataset/zzsptfp/b9.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n税点是多少"
+      },
+      {
+        "role": "assistant",
+        "content": "17%"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_470",
+    "images": [
+      "dataset/zzsptfp/b24.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n税金多少钱"
+      },
+      {
+        "role": "assistant",
+        "content": "￥507.82"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_471",
+    "images": [
+      "dataset/zzsptfp/b30.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n把发票关键信息转成JSON数据"
+      },
+      {
+        "role": "assistant",
+        "content": "{\n  \"No\": \"12270803\",\n  \"开票日期\": \"2016年06月12日\",\n  \"名称\": \"深圳市购机汇网络有限公司\",\n  \"纳税人识别号\": \"440300083885931\",\n  \"金额\": \"￥2987.18\",\n  \"税率\": \"17%\",\n  \"税额\": \"¥507.82\",\n  \"价税合计\": \"￥3495.00\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_472",
+    "images": [
+      "dataset/zzsptfp/b14.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n把发票关键信息转成JSON数据"
+      },
+      {
+        "role": "assistant",
+        "content": "{\n  \"No\": \"12270860\",\n  \"名称\": \"深圳市购机汇网络有限公司\",\n  \"纳税人识别号\": \"440300083885931\",\n  \"税率\": \"17%\",\n  \"税额\": \"￥507.82\",\n  \"价税合计\": \"￥3495.00\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_473",
+    "images": [
+      "dataset/zzsptfp/b198.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n发票的核心信息概述"
+      },
+      {
+        "role": "assistant",
+        "content": "增值税发票：票号12270257，日期2016年06月12日，购方深圳市购机汇网络有限公司，总额￥7495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_474",
+    "images": [
+      "dataset/zzsptfp/b13.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n用JSON格式列出发票的主要字段"
+      },
+      {
+        "role": "assistant",
+        "content": "{\n  \"No\": \"12270855\",\n  \"开票日期\": \"2016年06月12日\",\n  \"名称\": \"深圳市购机汇网络有限公司\",\n  \"金额\": \"￥2987.18\",\n  \"税额\": \"￥507.82\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_475",
+    "images": [
+      "dataset/zzsptfp/b1.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n发票的核心信息概述"
+      },
+      {
+        "role": "assistant",
+        "content": "增值税发票：票号12270242，日期2016年06月12日，购方深圳市购机汇网络有限公司，总额￥1417.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_476",
+    "images": [
+      "dataset/zzsptfp/b25.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n查下购买方税号"
+      },
+      {
+        "role": "assistant",
+        "content": "440300083885931"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_477",
+    "images": [
+      "dataset/zzsptfp/b10.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n看下商品金额"
+      },
+      {
+        "role": "assistant",
+        "content": "￥2987.18"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_478",
+    "images": [
+      "dataset/zzsptfp/b7.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n核算一下：金额、税额、合计分别是多少"
+      },
+      {
+        "role": "assistant",
+        "content": "金额￥2987.18，税额￥507.82，合计￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_479",
+    "images": [
+      "dataset/zzsptfp/b23.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n买方的税务编码"
+      },
+      {
+        "role": "assistant",
+        "content": "440300083885931"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_480",
+    "images": [
+      "dataset/zzsptfp/b140.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n查下购买方税号"
+      },
+      {
+        "role": "assistant",
+        "content": "440300083885931"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_481",
+    "images": [
+      "dataset/zzsptfp/b16.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这票开给谁了"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市购机汇网络有限公司"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_482",
+    "images": [
+      "dataset/zzsptfp/b10.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n看下购货方叫啥"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市购机汇网络有限公司"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_483",
+    "images": [
+      "dataset/zzsptfp/b11.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n票号多少"
+      },
+      {
+        "role": "assistant",
+        "content": "12270837"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_484",
+    "images": [
+      "dataset/zzsptfp/b1.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n汇款账户信息"
+      },
+      {
+        "role": "assistant",
+        "content": "中国工商银行股份有限公司深圳园岭支行4000024709200172809"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_485",
+    "images": [
+      "dataset/zzsptfp/b24.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n收款银行和账号"
+      },
+      {
+        "role": "assistant",
+        "content": "中国工商银行股份有限公司深圳园龄支行4000024709200172809"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_486",
+    "images": [
+      "dataset/zzsptfp/b13.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这张票的关键要素有哪些"
+      },
+      {
+        "role": "assistant",
+        "content": "增值税发票：票号12270855，日期2016年06月12日，购方深圳市购机汇网络有限公司，总额￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_487",
+    "images": [
+      "dataset/zzsptfp/b23.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这票按几个点收税"
+      },
+      {
+        "role": "assistant",
+        "content": "17%"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_488",
+    "images": [
+      "dataset/zzsptfp/b137.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这张票的基本信息：票号和日期"
+      },
+      {
+        "role": "assistant",
+        "content": "票号：12263872，开票时间：2016年06月08日"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_489",
+    "images": [
+      "dataset/zzsptfp/b33.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这票的编号查一下"
+      },
+      {
+        "role": "assistant",
+        "content": "12269563"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_490",
+    "images": [
+      "dataset/zzsptfp/b200.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n帮我看下票号以及开票时间"
+      },
+      {
+        "role": "assistant",
+        "content": "票号：12270258，开票时间：2016年06月12日"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_491",
+    "images": [
+      "dataset/zzsptfp/b1.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n票号多少"
+      },
+      {
+        "role": "assistant",
+        "content": "12270242"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_492",
+    "images": [
+      "dataset/zzsptfp/b14.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n公司注册地址及联系方式"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市龙华新区民治街道民治大道震泪科技大厦A12070755-23808606"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_493",
+    "images": [
+      "dataset/zzsptfp/b200.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这张票的关键要素有哪些"
+      },
+      {
+        "role": "assistant",
+        "content": "增值税发票：票号12270258，日期2016年06月12日，购方深圳市购机汇网络有限公司，总额￥7485.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_494",
+    "images": [
+      "dataset/zzsptfp/b16.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n票号多少"
+      },
+      {
+        "role": "assistant",
+        "content": "12271532"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_495",
+    "images": [
+      "dataset/zzsptfp/b25.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这票按几个点收税"
+      },
+      {
+        "role": "assistant",
+        "content": "17%"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_496",
+    "images": [
+      "dataset/zzsptfp/b13.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这票按几个点收税"
+      },
+      {
+        "role": "assistant",
+        "content": "17%"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_497",
+    "images": [
+      "dataset/zzsptfp/b6.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n简要介绍这张发票的内容"
+      },
+      {
+        "role": "assistant",
+        "content": "增值税发票：票号12270857，购方深圳市购机汇网络有限公司，总额￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_498",
+    "images": [
+      "dataset/zzsptfp/b138.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n增值税税率多少"
+      },
+      {
+        "role": "assistant",
+        "content": "17%"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_499",
+    "images": [
+      "dataset/zzsptfp/b5.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n把发票关键信息转成JSON数据"
+      },
+      {
+        "role": "assistant",
+        "content": "{\n  \"No\": \"12270824\",\n  \"开票日期\": \"2016年06月12日\",\n  \"名称\": \"深圳市购机汇网络有限公司\",\n  \"纳税人识别号\": \"440300083885931\",\n  \"金额\": \"￥2987.18\",\n  \"税率\": \"17%\",\n  \"税额\": \"鄂507.82\",\n  \"价税合计\": \"￥3495.00\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_500",
+    "images": [
+      "dataset/zzsptfp/b201.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这票按几个点收税"
+      },
+      {
+        "role": "assistant",
+        "content": "17%"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_501",
+    "images": [
+      "dataset/zzsptfp/b2.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n增值税税率多少"
+      },
+      {
+        "role": "assistant",
+        "content": "17%"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_502",
+    "images": [
+      "dataset/zzsptfp/b138.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n用JSON格式列出发票的主要字段"
+      },
+      {
+        "role": "assistant",
+        "content": "{\n  \"No\": \"12263891\",\n  \"开票日期\": \"2016年06月08日\",\n  \"名称\": \"深圳市购机汇网络有限公司\",\n  \"金额\": \"￥597.44\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_503",
+    "images": [
+      "dataset/zzsptfp/b22.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这票的编号查一下"
+      },
+      {
+        "role": "assistant",
+        "content": "12269549"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_504",
+    "images": [
+      "dataset/zzsptfp/b13.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n帮我看下票号以及开票时间"
+      },
+      {
+        "role": "assistant",
+        "content": "票号：12270855，开票时间：2016年06月12日"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_505",
+    "images": [
+      "dataset/zzsptfp/b11.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n看下购货方叫啥"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市购机汇网络有限公司"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_506",
+    "images": [
+      "dataset/zzsptfp/b16.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n公司注册地址及联系方式"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市龙华新区民治街道民治大道展科技大厦#12070755-23806606"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_507",
+    "images": [
+      "dataset/zzsptfp/b23.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n发票的核心信息概述"
+      },
+      {
+        "role": "assistant",
+        "content": "增值税发票：票号12270840，日期2016年06月12日，购方深圳市购机汇网络有限公司，总额￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_508",
+    "images": [
+      "dataset/zzsptfp/b199.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n票号多少"
+      },
+      {
+        "role": "assistant",
+        "content": "12270238"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_509",
+    "images": [
+      "dataset/zzsptfp/b199.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n增值税税率多少"
+      },
+      {
+        "role": "assistant",
+        "content": "17%"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_510",
+    "images": [
+      "dataset/zzsptfp/b12.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n银行开户信息是什么"
+      },
+      {
+        "role": "assistant",
+        "content": "中国工商银行股份有限公司深圳园龄支行4000024709200172809"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_511",
+    "images": [
+      "dataset/zzsptfp/b29.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这票的编号查一下"
+      },
+      {
+        "role": "assistant",
+        "content": "12270793"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_512",
+    "images": [
+      "dataset/zzsptfp/b200.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n抬头写的什么公司"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市购机汇网络有限公司"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_513",
+    "images": [
+      "dataset/zzsptfp/b24.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n用JSON格式列出发票的主要字段"
+      },
+      {
+        "role": "assistant",
+        "content": "{\n  \"No\": \"12270841\",\n  \"开票日期\": \"2016年06月12日\",\n  \"名称\": \"深圳市购机汇网络有限公司\",\n  \"金额\": \"￥2987.18\",\n  \"税额\": \"￥507.82\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_514",
+    "images": [
+      "dataset/zzsptfp/b20.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n商品售价及适用税率"
+      },
+      {
+        "role": "assistant",
+        "content": "售价￥2987.18，税率17%"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_515",
+    "images": [
+      "dataset/zzsptfp/b1.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n用JSON格式列出发票的主要字段"
+      },
+      {
+        "role": "assistant",
+        "content": "{\n  \"No\": \"12270242\",\n  \"开票日期\": \"2016年06月12日\",\n  \"名称\": \"深圳市购机汇网络有限公司\",\n  \"金额\": \"￥1211.11\",\n  \"税额\": \"￥205.89\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_516",
+    "images": [
+      "dataset/zzsptfp/b6.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n收款银行和账号"
+      },
+      {
+        "role": "assistant",
+        "content": "中国工商银行股份有限公司深圳园岭支行4000024709200172808"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_517",
+    "images": [
+      "dataset/zzsptfp/b201.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n看一下开票时间"
+      },
+      {
+        "role": "assistant",
+        "content": "2016年06月12日"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_518",
+    "images": [
+      "dataset/zzsptfp/b5.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n发票代码后面的号码是什么"
+      },
+      {
+        "role": "assistant",
+        "content": "12270824"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_519",
+    "images": [
+      "dataset/zzsptfp/b5.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n核算一下：金额、税额、合计分别是多少"
+      },
+      {
+        "role": "assistant",
+        "content": "金额￥2987.18，税额鄂507.82，合计￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_520",
+    "images": [
+      "dataset/zzsptfp/b140.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n购买方的完整信息包括哪些"
+      },
+      {
+        "role": "assistant",
+        "content": "企业名称：深圳市购机汇网络有限公司，税号：440300083885931，地址电话：深圳市龙华新区民治街道民治大道展酒科技大厦#12070755-23806806"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_521",
+    "images": [
+      "dataset/zzsptfp/b140.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n银行开户信息是什么"
+      },
+      {
+        "role": "assistant",
+        "content": "中国工商银行股份有限公司深训园龄支行4000024709200172809"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_522",
+    "images": [
+      "dataset/zzsptfp/b17.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n把发票关键信息转成JSON数据"
+      },
+      {
+        "role": "assistant",
+        "content": "{\n  \"No\": \"12271544\",\n  \"名称\": \"深圳市购机汇网络有限公司\",\n  \"纳税人识别号\": \"440300083885931\",\n  \"税率\": \"17%\",\n  \"税额\": \"手507.82\",\n  \"价税合计\": \"￥3495.00\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_523",
+    "images": [
+      "dataset/zzsptfp/b139.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n合计金额栏是多少"
+      },
+      {
+        "role": "assistant",
+        "content": "￥597.44"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_524",
+    "images": [
+      "dataset/zzsptfp/b7.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n简要介绍这张发票的内容"
+      },
+      {
+        "role": "assistant",
+        "content": "增值税发票：票号12270862，日期2016年06月12日，购方深圳市购机汇网络有限公司，总额￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_525",
+    "images": [
+      "dataset/zzsptfp/b7.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n看一下开票时间"
+      },
+      {
+        "role": "assistant",
+        "content": "2016年06月12日"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_526",
+    "images": [
+      "dataset/zzsptfp/b12.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n购买方的完整信息包括哪些"
+      },
+      {
+        "role": "assistant",
+        "content": "企业名称：深圳市购机汇网络有限公司，税号：440300083885931，地址电话：深圳市龙华新区民治街道民治大道展科技大厦#12070755-23806606"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_527",
+    "images": [
+      "dataset/zzsptfp/b26.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n买方单位名称"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市购机汇网络有限公司"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_528",
+    "images": [
+      "dataset/zzsptfp/b137.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n增值税税率多少"
+      },
+      {
+        "role": "assistant",
+        "content": "17%"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_529",
+    "images": [
+      "dataset/zzsptfp/b30.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n增值税额是多少"
+      },
+      {
+        "role": "assistant",
+        "content": "¥507.82"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_530",
+    "images": [
+      "dataset/zzsptfp/b30.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n票号多少"
+      },
+      {
+        "role": "assistant",
+        "content": "12270803"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_531",
+    "images": [
+      "dataset/zzsptfp/b9.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n发票代码后面的号码是什么"
+      },
+      {
+        "role": "assistant",
+        "content": "12269559"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_532",
+    "images": [
+      "dataset/zzsptfp/b12.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n看一下开票时间"
+      },
+      {
+        "role": "assistant",
+        "content": "2016年06月12日"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_533",
+    "images": [
+      "dataset/zzsptfp/b25.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n购货单位地址电话信息"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市龙华新区民浴街道民治大道展科技大厦#12070786-23806606"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_534",
+    "images": [
+      "dataset/zzsptfp/b139.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n发票代码后面的号码是什么"
+      },
+      {
+        "role": "assistant",
+        "content": "12186138"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_535",
+    "images": [
+      "dataset/zzsptfp/b27.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n用JSON格式列出发票的主要字段"
+      },
+      {
+        "role": "assistant",
+        "content": "{\n  \"No\": \"12270871\",\n  \"开票日期\": \"2016年06月12日\",\n  \"名称\": \"深圳市购机汇网络有限公司\",\n  \"金额\": \"手2987.18\",\n  \"税额\": \"￥507.82\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_536",
+    "images": [
+      "dataset/zzsptfp/b33.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n用JSON格式列出发票的主要字段"
+      },
+      {
+        "role": "assistant",
+        "content": "{\n  \"No\": \"12269563\",\n  \"开票日期\": \"2016年06月12日\",\n  \"名称\": \"深圳市购机汇网络有限公司\",\n  \"金额\": \"￥2987.18\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_537",
+    "images": [
+      "dataset/zzsptfp/b7.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n税点是多少"
+      },
+      {
+        "role": "assistant",
+        "content": "17%"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_538",
+    "images": [
+      "dataset/zzsptfp/b3.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n核算一下：金额、税额、合计分别是多少"
+      },
+      {
+        "role": "assistant",
+        "content": "金额手2987.18，税额￥507.82，合计￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_539",
+    "images": [
+      "dataset/zzsptfp/b25.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n查一下这张票的号码"
+      },
+      {
+        "role": "assistant",
+        "content": "12270830"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_540",
+    "images": [
+      "dataset/zzsptfp/b16.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n含税价格是多少"
+      },
+      {
+        "role": "assistant",
+        "content": "￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_541",
+    "images": [
+      "dataset/zzsptfp/b2.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n银行开户信息是什么"
+      },
+      {
+        "role": "assistant",
+        "content": "中国工商银行股份有限公司深圳园龄支行4000024709200172809"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_542",
+    "images": [
+      "dataset/zzsptfp/b3.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n统一社会信用代码或税号"
+      },
+      {
+        "role": "assistant",
+        "content": "440300083885931"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_543",
+    "images": [
+      "dataset/zzsptfp/b30.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n看下购货方叫啥"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市购机汇网络有限公司"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_544",
+    "images": [
+      "dataset/zzsptfp/b29.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n帮我看下票号以及开票时间"
+      },
+      {
+        "role": "assistant",
+        "content": "票号：12270793，开票时间：2016年06月12日"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_545",
+    "images": [
+      "dataset/zzsptfp/b140.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n合计金额栏是多少"
+      },
+      {
+        "role": "assistant",
+        "content": "￥597.44"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_546",
+    "images": [
+      "dataset/zzsptfp/b200.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n财务需要的金额信息汇总"
+      },
+      {
+        "role": "assistant",
+        "content": "金额手6397.43，税额￥1087.57，合计￥7485.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_547",
+    "images": [
+      "dataset/zzsptfp/b29.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n购货单位地址电话信息"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市龙华新区民治街道民治大道展科技大厦A120707D5-23806606"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_548",
+    "images": [
+      "dataset/zzsptfp/b30.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这票是几号开的"
+      },
+      {
+        "role": "assistant",
+        "content": "2016年06月12日"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_549",
+    "images": [
+      "dataset/zzsptfp/b29.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n核算一下：金额、税额、合计分别是多少"
+      },
+      {
+        "role": "assistant",
+        "content": "金额￥2987.18，税额￥507.82，合计￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_550",
+    "images": [
+      "dataset/zzsptfp/b19.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n汇款账户信息"
+      },
+      {
+        "role": "assistant",
+        "content": "中国工商银行股份有限公司深圳园岭支行4000024709200172809"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_551",
+    "images": [
+      "dataset/zzsptfp/b23.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n财务需要的金额信息汇总"
+      },
+      {
+        "role": "assistant",
+        "content": "金额￥2987.18，税额￥507.82，合计￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_552",
+    "images": [
+      "dataset/zzsptfp/b22.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n总共应付多少钱"
+      },
+      {
+        "role": "assistant",
+        "content": "￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_553",
+    "images": [
+      "dataset/zzsptfp/b10.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n把发票关键信息转成JSON数据"
+      },
+      {
+        "role": "assistant",
+        "content": "{\n  \"No\": \"12270859\",\n  \"开票日期\": \"2016年06月12日\",\n  \"名称\": \"深圳市购机汇网络有限公司\",\n  \"纳税人识别号\": \"440300083885931\",\n  \"金额\": \"￥2987.18\",\n  \"税率\": \"17%\",\n  \"价税合计\": \"￥3495.00\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_554",
+    "images": [
+      "dataset/zzsptfp/b8.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这张票的关键要素有哪些"
+      },
+      {
+        "role": "assistant",
+        "content": "增值税发票：票号12270864，日期2016年06月12日，购方深圳市购机网络有限公司，总额￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_555",
+    "images": [
+      "dataset/zzsptfp/b12.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n实际支付金额"
+      },
+      {
+        "role": "assistant",
+        "content": "￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_556",
+    "images": [
+      "dataset/zzsptfp/b24.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n买方企业的详细资料"
+      },
+      {
+        "role": "assistant",
+        "content": "企业名称：深圳市购机汇网络有限公司，税号：440300083885931，地址电话：深圳市龙华新区民治街道民治大道展科技大屋#12070755-23806606"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_557",
+    "images": [
+      "dataset/zzsptfp/b0.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n银行开户信息是什么"
+      },
+      {
+        "role": "assistant",
+        "content": "中国工商银行股份有限公司深圳园岭支行4000024709200172808"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_558",
+    "images": [
+      "dataset/zzsptfp/b10.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这票的价格和税率情况"
+      },
+      {
+        "role": "assistant",
+        "content": "售价￥2987.18，税率17%"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_559",
+    "images": [
+      "dataset/zzsptfp/b15.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n买方企业的详细资料"
+      },
+      {
+        "role": "assistant",
+        "content": "企业名称：深圳市购机汇网络有限公司，税号：440300083885931，地址电话：深圳市龙华新区民治街道民治大道展酒科技大屋4120707B6-23806606"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_560",
+    "images": [
+      "dataset/zzsptfp/b23.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n帮我看下票号以及开票时间"
+      },
+      {
+        "role": "assistant",
+        "content": "票号：12270840，开票时间：2016年06月12日"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_561",
+    "images": [
+      "dataset/zzsptfp/b200.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n货物或服务的价款"
+      },
+      {
+        "role": "assistant",
+        "content": "手6397.43"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_562",
+    "images": [
+      "dataset/zzsptfp/b26.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n把发票关键信息转成JSON数据"
+      },
+      {
+        "role": "assistant",
+        "content": "{\n  \"No\": \"12270798\",\n  \"开票日期\": \"2016年06月12日\",\n  \"名称\": \"深圳市购机汇网络有限公司\",\n  \"纳税人识别号\": \"440300083885931\",\n  \"金额\": \"￥2987.18\",\n  \"税额\": \"￥507.82\",\n  \"价税合计\": \"￥3495.00\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_563",
+    "images": [
+      "dataset/zzsptfp/b19.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这张票的关键要素有哪些"
+      },
+      {
+        "role": "assistant",
+        "content": "增值税发票：票号12271542，日期2016年06月12日，购方深圳市购机汇网络有限公司，总额￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_564",
+    "images": [
+      "dataset/zzsptfp/b3.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n公司注册地址及联系方式"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市龙华新区民治街道民治大道展科技大厦#12070755-23806606"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_565",
+    "images": [
+      "dataset/zzsptfp/b200.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n总共应付多少钱"
+      },
+      {
+        "role": "assistant",
+        "content": "￥7485.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_566",
+    "images": [
+      "dataset/zzsptfp/b6.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n用JSON格式列出发票的主要字段"
+      },
+      {
+        "role": "assistant",
+        "content": "{\n  \"No\": \"12270857\",\n  \"名称\": \"深圳市购机汇网络有限公司\",\n  \"金额\": \"￥2987.18\",\n  \"税额\": \"￥507.82\"\n}"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_567",
+    "images": [
+      "dataset/zzsptfp/b5.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n帮我看下票号以及开票时间"
+      },
+      {
+        "role": "assistant",
+        "content": "票号：12270824，开票时间：2016年06月12日"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_568",
+    "images": [
+      "dataset/zzsptfp/b27.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n简要介绍这张发票的内容"
+      },
+      {
+        "role": "assistant",
+        "content": "增值税发票：票号12270871，日期2016年06月12日，购方深圳市购机汇网络有限公司，总额￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_569",
+    "images": [
+      "dataset/zzsptfp/b4.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这票的价格和税率情况"
+      },
+      {
+        "role": "assistant",
+        "content": "售价手2987.18，税率17%"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_570",
+    "images": [
+      "dataset/zzsptfp/b33.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n购买方的完整信息包括哪些"
+      },
+      {
+        "role": "assistant",
+        "content": "企业名称：深圳市购机汇网络有限公司，税号：440300083885931，地址电话：深圳市龙华新区民治街道民治大道展消科技大厦A12070755-23806606"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_571",
+    "images": [
+      "dataset/zzsptfp/b11.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n购货单位地址电话信息"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市龙华新区民治街道民治大道厦湖科技大厦12070755-23806606"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_572",
+    "images": [
+      "dataset/zzsptfp/b140.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n发票的核心信息概述"
+      },
+      {
+        "role": "assistant",
+        "content": "增值税发票：票号13102225，日期2016年06月08日，购方深圳市购机汇网络有限公司，总额￥669.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_573",
+    "images": [
+      "dataset/zzsptfp/b10.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n含税价格是多少"
+      },
+      {
+        "role": "assistant",
+        "content": "￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_574",
+    "images": [
+      "dataset/zzsptfp/b16.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n银行开户信息是什么"
+      },
+      {
+        "role": "assistant",
+        "content": "中国工商银行股份有限公司深圳园龄支行4000024709200172809"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_575",
+    "images": [
+      "dataset/zzsptfp/b29.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n总共应付多少钱"
+      },
+      {
+        "role": "assistant",
+        "content": "￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_576",
+    "images": [
+      "dataset/zzsptfp/b25.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这票的价格和税率情况"
+      },
+      {
+        "role": "assistant",
+        "content": "售价#2987.18，税率17%"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_577",
+    "images": [
+      "dataset/zzsptfp/b15.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n银行开户信息是什么"
+      },
+      {
+        "role": "assistant",
+        "content": "中国工商银行股份有限公司深圳园龄支行4000024709200172809"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_578",
+    "images": [
+      "dataset/zzsptfp/b0.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n简要介绍这张发票的内容"
+      },
+      {
+        "role": "assistant",
+        "content": "增值税发票：票号12271524，日期2016年06月12日，购方深圳市购机汇网络有限公司，总额￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_579",
+    "images": [
+      "dataset/zzsptfp/b12.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n应缴税款金额"
+      },
+      {
+        "role": "assistant",
+        "content": "￥507.82"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_580",
+    "images": [
+      "dataset/zzsptfp/b5.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这张票的关键要素有哪些"
+      },
+      {
+        "role": "assistant",
+        "content": "增值税发票：票号12270824，日期2016年06月12日，购方深圳市购机汇网络有限公司，总额￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_581",
+    "images": [
+      "dataset/zzsptfp/b9.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n简要介绍这张发票的内容"
+      },
+      {
+        "role": "assistant",
+        "content": "增值税发票：票号12269559，日期2016年06月12日，购方深圳市购机汇网络有限公司，总额￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_582",
+    "images": [
+      "dataset/zzsptfp/b26.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n发票的核心信息概述"
+      },
+      {
+        "role": "assistant",
+        "content": "增值税发票：票号12270798，日期2016年06月12日，购方深圳市购机汇网络有限公司，总额￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_583",
+    "images": [
+      "dataset/zzsptfp/b200.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n应缴税款金额"
+      },
+      {
+        "role": "assistant",
+        "content": "￥1087.57"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_584",
+    "images": [
+      "dataset/zzsptfp/b3.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n发票代码后面的号码是什么"
+      },
+      {
+        "role": "assistant",
+        "content": "12269577"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_585",
+    "images": [
+      "dataset/zzsptfp/b1.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n税点是多少"
+      },
+      {
+        "role": "assistant",
+        "content": "17%"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_586",
+    "images": [
+      "dataset/zzsptfp/b17.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n公司注册地址及联系方式"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市龙华新区民治街道民治大道展科技大厦A12070755-23806606"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_587",
+    "images": [
+      "dataset/zzsptfp/b25.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n买方企业的详细资料"
+      },
+      {
+        "role": "assistant",
+        "content": "企业名称：深圳市购机汇网络有限公司，税号：440300083885931，地址电话：深圳市龙华新区民浴街道民治大道展科技大厦#12070786-23806606"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_588",
+    "images": [
+      "dataset/zzsptfp/b13.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n汇款账户信息"
+      },
+      {
+        "role": "assistant",
+        "content": "中国工商银行股份有限公司深圳园龄支行4000024709200172809"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_589",
+    "images": [
+      "dataset/zzsptfp/b2.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n合计金额栏是多少"
+      },
+      {
+        "role": "assistant",
+        "content": "￥2987.18"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_590",
+    "images": [
+      "dataset/zzsptfp/b11.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n银行开户信息是什么"
+      },
+      {
+        "role": "assistant",
+        "content": "中国工商银行股份有限公司挥圳园岭支行4000024708200172809"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_591",
+    "images": [
+      "dataset/zzsptfp/b6.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n买方的税务编码"
+      },
+      {
+        "role": "assistant",
+        "content": "440300083885931"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_592",
+    "images": [
+      "dataset/zzsptfp/b30.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n增值税税率多少"
+      },
+      {
+        "role": "assistant",
+        "content": "17%"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_593",
+    "images": [
+      "dataset/zzsptfp/b14.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n税金多少钱"
+      },
+      {
+        "role": "assistant",
+        "content": "￥507.82"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_594",
+    "images": [
+      "dataset/zzsptfp/b138.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这票是几号开的"
+      },
+      {
+        "role": "assistant",
+        "content": "2016年06月08日"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_595",
+    "images": [
+      "dataset/zzsptfp/b15.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n抬头写的什么公司"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市购机汇网络有限公司"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_596",
+    "images": [
+      "dataset/zzsptfp/b1.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n看一下开票时间"
+      },
+      {
+        "role": "assistant",
+        "content": "2016年06月12日"
+      }
+    ]
+  },
+  {
+    "id": "val_invoice_597",
+    "images": [
+      "dataset/zzsptfp/b33.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n收款银行和账号"
+      },
+      {
+        "role": "assistant",
+        "content": "中国工商银行股份有限公司深圳园岭支行4000024709200172809"
+      }
+    ]
+  }
+]

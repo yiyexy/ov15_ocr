@@ -1,0 +1,35 @@
+# LLaVA-OneVision OCR LoRA 微调项目依赖
+# conda 环境: bank_ocr
+# Python: 3.10+
+
+# PyTorch 核心
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+
+# Transformers 生态
+transformers>=4.40.0
+accelerate>=1.0.0
+peft>=0.10.0
+safetensors>=0.4.0
+
+# VLM 推理
+vllm>=0.4.0
+qwen-vl-utils>=0.0.10
+
+# 图像处理
+Pillow>=10.0.0
+
+# 文本处理
+sentencepiece>=0.1.99
+
+# 通用工具
+numpy>=1.24.0
+tqdm>=4.60.0
+
+# 可选：TensorBoard 日志
+tensorboard>=2.14.0
+
+# 可选：开发调试
+# ipython
+# jupyter

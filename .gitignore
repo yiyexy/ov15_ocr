@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+*.egg
+dist/
+build/
+
+# 虚拟环境
+venv/
+env/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# 模型权重和输出（太大不上传）
+output/
+*.safetensors
+*.bin
+*.pt
+*.pth
+checkpoints/
+
+# 日志
+logs/
+*.log
+tensorboard/
+
+# 临时文件
+tmp/
+temp/
+*.tmp
+bak/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 数据集图片（只保留 json 标注）
+dataset/zzsptfp/
+zzsptfp/
+dataset/*.jpg
+dataset/*.png
+dataset/*.jpeg
+
+# 评估结果
+eval_results.json
