@@ -15,6 +15,11 @@ pip install -r requirements.txt
 https://aistudio.baidu.com/datasetdetail/125158
 ```
 
+## 预训练模型路径
+```
+https://huggingface.co/lmms-lab/LLaVA-OneVision-1.5-4B-Instruct
+```
+
 ## 项目结构
 
 ```
