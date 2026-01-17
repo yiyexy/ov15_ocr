@@ -22,7 +22,11 @@ def parse_args():
     parser.add_argument("--learning_rate", type=float, default=2e-5)
     parser.add_argument("--lora_r", type=int, default=16)
     parser.add_argument("--lora_alpha", type=int, default=32)
-    parser.add_argument("--max_length", type=int, default=2048)
+    parser.add_argument("--max_length", type=int, default=1024, help="最大序列长度，降低可节省显存")
+    parser.add_argument("--max_image_size", type=int, default=384, help="图像最大尺寸，降低可大幅节省显存")
+    parser.add_argument("--use_4bit", action="store_true", help="使用 4-bit 量化加载模型")
+    parser.add_argument("--use_8bit", action="store_true", help="使用 8-bit 量化加载模型")
+    parser.add_argument("--gradient_checkpointing", action="store_true", default=True, help="启用梯度检查点")
     return parser.parse_args()
 
 args = parse_args()
@@ -73,9 +77,10 @@ class OCRInstructDataset(Dataset):
     }
     """
 
-    def __init__(self, data_path: str, processor, max_length: int = 2048, max_samples: int = None):
+    def __init__(self, data_path: str, processor, max_length: int = 1024, max_samples: int = None, max_image_size: int = 384):
         self.processor = processor
         self.max_length = max_length
+        self.max_image_size = max_image_size
         self.samples = self._load_samples(data_path, max_samples)
 
     def _load_samples(self, data_path: str, max_samples: int = None) -> List[Dict]:
@@ -122,7 +127,7 @@ class OCRInstructDataset(Dataset):
         try:
             image = Image.open(image_path).convert("RGB")
             # 限制最大尺寸，减少 image tokens 数量
-            max_size = 1024
+            max_size = self.max_image_size
             if max(image.size) > max_size:
                 ratio = max_size / max(image.size)
                 new_size = (int(image.size[0] * ratio), int(image.size[1] * ratio))
@@ -298,12 +303,33 @@ def main():
         trust_remote_code=True
     )
     
-    # 显式指定设备
+    # 配置量化选项
+    model_kwargs = {
+        "device_map": {"": 0},
+        "trust_remote_code": True,
+    }
+    
+    if args.use_4bit:
+        from transformers import BitsAndBytesConfig
+        print("Using 4-bit quantization...")
+        model_kwargs["quantization_config"] = BitsAndBytesConfig(
+            load_in_4bit=True,
+            bnb_4bit_compute_dtype=torch.bfloat16,
+            bnb_4bit_use_double_quant=True,
+            bnb_4bit_quant_type="nf4"
+        )
+    elif args.use_8bit:
+        from transformers import BitsAndBytesConfig
+        print("Using 8-bit quantization...")
+        model_kwargs["quantization_config"] = BitsAndBytesConfig(
+            load_in_8bit=True,
+        )
+    else:
+        model_kwargs["torch_dtype"] = torch.bfloat16
+    
     model = AutoModelForImageTextToText.from_pretrained(
         args.model_path,
-        torch_dtype=torch.bfloat16,
-        device_map={"": 0},  # 使用当前可见的第一个 GPU
-        trust_remote_code=True
+        **model_kwargs
     )
     
     # 2. 配置 LoRA
@@ -319,6 +345,11 @@ def main():
         ]
     )
     
+    # 启用梯度检查点（用计算换显存）
+    if args.gradient_checkpointing:
+        print("Enabling gradient checkpointing...")
+        model.gradient_checkpointing_enable()
+    
     # 确保模型参数可训练
     model.enable_input_require_grads()
     model = get_peft_model(model, peft_config)
@@ -330,7 +361,8 @@ def main():
         data_path=args.data_path,
         processor=processor,
         max_length=args.max_length,
-        max_samples=args.max_samples
+        max_samples=args.max_samples,
+        max_image_size=args.max_image_size
     )
     
     print(f"Training samples: {len(train_dataset)}")
@@ -355,7 +387,7 @@ def main():
         dataloader_prefetch_factor=2,  # 预取数据
         remove_unused_columns=False,
         report_to="tensorboard",
-        gradient_checkpointing=False,  # 禁用以避免 LoRA 兼容性问题
+        gradient_checkpointing=args.gradient_checkpointing,
         optim="adamw_torch",
     )
     
