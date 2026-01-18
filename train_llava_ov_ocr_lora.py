@@ -31,10 +31,7 @@ def parse_args():
 
 args = parse_args()
 
-# 添加模型目录到路径（用于加载自定义模型类）
-sys.path.insert(0, args.model_path)
-
-from transformers import AutoProcessor, AutoConfig, AutoModelForImageTextToText, TrainingArguments, Trainer
+from transformers import AutoProcessor, AutoConfig, AutoModel, TrainingArguments, Trainer
 from peft import LoraConfig, get_peft_model, TaskType
 import json
 from PIL import Image
@@ -42,12 +39,7 @@ from typing import Dict, List, Any
 import numpy as np
 import random
 
-# 注册自定义模型
-from configuration_llavaonevision1_5 import Llavaonevision1_5Config
-from modeling_llavaonevision1_5 import LLaVAOneVision1_5_ForConditionalGeneration
-
-AutoConfig.register("llava_onevision1_5", Llavaonevision1_5Config)
-AutoModelForImageTextToText.register(Llavaonevision1_5Config, LLaVAOneVision1_5_ForConditionalGeneration)
+# 不需要手动注册，trust_remote_code=True 会自动加载自定义模型类
 
 # 设置随机种子
 SEED = 42
@@ -327,7 +319,8 @@ def main():
     else:
         model_kwargs["torch_dtype"] = torch.bfloat16
     
-    model = AutoModelForImageTextToText.from_pretrained(
+    # 使用 AutoModel 加载自定义模型（trust_remote_code=True 会自动识别）
+    model = AutoModel.from_pretrained(
         args.model_path,
         **model_kwargs
     )

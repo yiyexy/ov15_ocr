@@ -45,7 +45,7 @@ from peft import PeftModel
 from configuration_llavaonevision1_5 import Llavaonevision1_5Config
 from modeling_llavaonevision1_5 import LLaVAOneVision1_5_ForConditionalGeneration
 
-AutoConfig.register("llava_onevision1_5", Llavaonevision1_5Config)
+AutoConfig.register("llavaonevision1_5", Llavaonevision1_5Config)
 AutoModelForImageTextToText.register(Llavaonevision1_5Config, LLaVAOneVision1_5_ForConditionalGeneration)
 
 
