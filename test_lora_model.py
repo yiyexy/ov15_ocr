@@ -25,20 +25,10 @@ def parse_args():
 
 args = parse_args()
 
-# 添加模型目录到路径（使用绝对路径确保能正确找到模块）
-model_abs_path = os.path.abspath(args.base_model)
-sys.path.insert(0, model_abs_path)
-print(f"Added to sys.path: {model_abs_path}")
-
-from transformers import AutoProcessor, AutoConfig, AutoModelForImageTextToText
+from transformers import AutoProcessor, AutoModelForCausalLM
 from peft import PeftModel
 
-# 注册自定义模型
-from configuration_llavaonevision1_5 import Llavaonevision1_5Config
-from modeling_llavaonevision1_5 import LLaVAOneVision1_5_ForConditionalGeneration
-
-AutoConfig.register("llavaonevision1_5", Llavaonevision1_5Config)
-AutoModelForImageTextToText.register(Llavaonevision1_5Config, LLaVAOneVision1_5_ForConditionalGeneration)
+# 完全依赖 trust_remote_code=True 自动加载自定义模型，无需手动注册
 
 
 def load_model(base_model_path, lora_path, use_lora=True):
@@ -46,7 +36,8 @@ def load_model(base_model_path, lora_path, use_lora=True):
     print(f"Loading base model from {base_model_path}...")
     processor = AutoProcessor.from_pretrained(base_model_path, trust_remote_code=True)
     
-    model = AutoModelForImageTextToText.from_pretrained(
+    # 使用 AutoModelForCausalLM 配合 trust_remote_code=True 自动加载自定义模型
+    model = AutoModelForCausalLM.from_pretrained(
         base_model_path,
         torch_dtype=torch.bfloat16,
         device_map="auto",
