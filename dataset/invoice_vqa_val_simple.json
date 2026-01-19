@@ -1,0 +1,1602 @@
+[
+  {
+    "id": "val_simple_0",
+    "images": [
+      "dataset/zzsptfp/b6.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n开户银行及账号是多少？"
+      },
+      {
+        "role": "assistant",
+        "content": "中国工商银行股份有限公司深圳园岭支行4000024709200172808"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_1",
+    "images": [
+      "dataset/zzsptfp/b22.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这张票的基本信息：票号和日期"
+      },
+      {
+        "role": "assistant",
+        "content": "票号：12269549，开票时间：2016年06月12日"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_2",
+    "images": [
+      "dataset/zzsptfp/b25.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n看下购货方叫啥"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市购机汇网络有限公司"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_3",
+    "images": [
+      "dataset/zzsptfp/b33.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n发票总金额是多少？"
+      },
+      {
+        "role": "assistant",
+        "content": "￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_4",
+    "images": [
+      "dataset/zzsptfp/b12.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n帮我看下票号以及开票时间"
+      },
+      {
+        "role": "assistant",
+        "content": "票号：12269568，开票时间：2016年06月12日"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_5",
+    "images": [
+      "dataset/zzsptfp/b20.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n抬头写的什么公司"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市购机汇网络有限公司"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_6",
+    "images": [
+      "dataset/zzsptfp/b199.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这票的价格和税率情况"
+      },
+      {
+        "role": "assistant",
+        "content": "售价￥6405.98，税率17%"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_7",
+    "images": [
+      "dataset/zzsptfp/b27.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n看一下开票时间"
+      },
+      {
+        "role": "assistant",
+        "content": "2016年06月12日"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_8",
+    "images": [
+      "dataset/zzsptfp/b201.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n发票抬头和纳税人识别号是？"
+      },
+      {
+        "role": "assistant",
+        "content": "购买方名称是深圳市购机汇网络有限公司，纳税人识别号是440300083885931。"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_9",
+    "images": [
+      "dataset/zzsptfp/b201.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这票的价格和税率情况"
+      },
+      {
+        "role": "assistant",
+        "content": "售价￥6397.43，税率17%"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_10",
+    "images": [
+      "dataset/zzsptfp/b140.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n发票抬头和纳税人识别号是？"
+      },
+      {
+        "role": "assistant",
+        "content": "购买方名称是深圳市购机汇网络有限公司，纳税人识别号是440300083885931。"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_11",
+    "images": [
+      "dataset/zzsptfp/b30.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n发票金额是多少？"
+      },
+      {
+        "role": "assistant",
+        "content": "￥2987.18"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_12",
+    "images": [
+      "dataset/zzsptfp/b20.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n发票编号是多少？"
+      },
+      {
+        "role": "assistant",
+        "content": "12271541"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_13",
+    "images": [
+      "dataset/zzsptfp/b4.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n发票抬头和纳税人识别号是？"
+      },
+      {
+        "role": "assistant",
+        "content": "购买方名称是深圳市购机汇网络有限公司，纳税人识别号是440300083885931。"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_14",
+    "images": [
+      "dataset/zzsptfp/b198.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n汇款账户信息"
+      },
+      {
+        "role": "assistant",
+        "content": "中国工商银行股份有限公司深圳园岭支行4000024709200172809"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_15",
+    "images": [
+      "dataset/zzsptfp/b30.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n含税总价是？"
+      },
+      {
+        "role": "assistant",
+        "content": "￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_16",
+    "images": [
+      "dataset/zzsptfp/b200.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n总共应付多少钱"
+      },
+      {
+        "role": "assistant",
+        "content": "￥7485.00"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_17",
+    "images": [
+      "dataset/zzsptfp/b138.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n看下购货方叫啥"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市购机汇网络有限公司"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_18",
+    "images": [
+      "dataset/zzsptfp/b140.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这张票的基本信息：票号和日期"
+      },
+      {
+        "role": "assistant",
+        "content": "票号：13102225，开票时间：2016年06月08日"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_19",
+    "images": [
+      "dataset/zzsptfp/b33.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n公司注册地址及联系方式"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市龙华新区民治街道民治大道展消科技大厦A12070755-23806606"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_20",
+    "images": [
+      "dataset/zzsptfp/b13.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n查一下这张票的号码"
+      },
+      {
+        "role": "assistant",
+        "content": "12270855"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_21",
+    "images": [
+      "dataset/zzsptfp/b201.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n含税价格是多少"
+      },
+      {
+        "role": "assistant",
+        "content": "￥7485.00"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_22",
+    "images": [
+      "dataset/zzsptfp/b198.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n购买方的名称和税号分别是什么？"
+      },
+      {
+        "role": "assistant",
+        "content": "购买方名称是深圳市购机汇网络有限公司，纳税人识别号是440300083885931。"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_23",
+    "images": [
+      "dataset/zzsptfp/b9.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n需要缴纳多少税？"
+      },
+      {
+        "role": "assistant",
+        "content": "￥507.82"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_24",
+    "images": [
+      "dataset/zzsptfp/b13.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n应缴税款金额"
+      },
+      {
+        "role": "assistant",
+        "content": "￥507.82"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_25",
+    "images": [
+      "dataset/zzsptfp/b198.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n发票金额是多少？"
+      },
+      {
+        "role": "assistant",
+        "content": "手6405.98"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_26",
+    "images": [
+      "dataset/zzsptfp/b198.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n查一下这张票的号码"
+      },
+      {
+        "role": "assistant",
+        "content": "12270257"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_27",
+    "images": [
+      "dataset/zzsptfp/b26.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n价税合计是多少？"
+      },
+      {
+        "role": "assistant",
+        "content": "￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_28",
+    "images": [
+      "dataset/zzsptfp/b9.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这张发票的编号和日期分别是什么？"
+      },
+      {
+        "role": "assistant",
+        "content": "发票号码是12269559，开票日期是2016年06月12日。"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_29",
+    "images": [
+      "dataset/zzsptfp/b139.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这张发票的编号和日期分别是什么？"
+      },
+      {
+        "role": "assistant",
+        "content": "发票号码是12186138，开票日期是2016年06月08日。"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_30",
+    "images": [
+      "dataset/zzsptfp/b3.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请告诉我发票号码和开票日期"
+      },
+      {
+        "role": "assistant",
+        "content": "发票号码是12269577，开票日期是2016年06月12日。"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_31",
+    "images": [
+      "dataset/zzsptfp/b23.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n帮我看下票号以及开票时间"
+      },
+      {
+        "role": "assistant",
+        "content": "票号：12270840，开票时间：2016年06月12日"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_32",
+    "images": [
+      "dataset/zzsptfp/b24.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n查一下这张票的号码"
+      },
+      {
+        "role": "assistant",
+        "content": "12270841"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_33",
+    "images": [
+      "dataset/zzsptfp/b12.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n税率是多少？"
+      },
+      {
+        "role": "assistant",
+        "content": "17%"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_34",
+    "images": [
+      "dataset/zzsptfp/b20.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n银行账户信息是？"
+      },
+      {
+        "role": "assistant",
+        "content": "中国工商银行股份有限公司深圳园龄支行4000024709200172809"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_35",
+    "images": [
+      "dataset/zzsptfp/b140.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n发票代码后面的号码是什么"
+      },
+      {
+        "role": "assistant",
+        "content": "13102225"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_36",
+    "images": [
+      "dataset/zzsptfp/b5.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n金额税额信息是什么？"
+      },
+      {
+        "role": "assistant",
+        "content": "金额是￥2987.18，税率是17%，税额是鄂507.82。"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_37",
+    "images": [
+      "dataset/zzsptfp/b0.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请告诉我发票的价税明细"
+      },
+      {
+        "role": "assistant",
+        "content": "金额是￥2987.18，税率是17%，税额是￥507.82。"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_38",
+    "images": [
+      "dataset/zzsptfp/b10.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n增值税税率多少"
+      },
+      {
+        "role": "assistant",
+        "content": "17%"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_39",
+    "images": [
+      "dataset/zzsptfp/b198.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n开户银行及账号是多少？"
+      },
+      {
+        "role": "assistant",
+        "content": "中国工商银行股份有限公司深圳园岭支行4000024709200172809"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_40",
+    "images": [
+      "dataset/zzsptfp/b19.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n公司地址电话是？"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市龙华新区民治街道民治大道展科技大厦A12070755-23806606"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_41",
+    "images": [
+      "dataset/zzsptfp/b8.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n增值税税率多少"
+      },
+      {
+        "role": "assistant",
+        "content": "17%"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_42",
+    "images": [
+      "dataset/zzsptfp/b8.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n购买方公司叫什么？"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市购机网络有限公司"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_43",
+    "images": [
+      "dataset/zzsptfp/b23.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n价款是多少钱？"
+      },
+      {
+        "role": "assistant",
+        "content": "￥2987.18"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_44",
+    "images": [
+      "dataset/zzsptfp/b17.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n买方单位名称"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市购机汇网络有限公司"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_45",
+    "images": [
+      "dataset/zzsptfp/b198.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n购买方的纳税人识别号是多少？"
+      },
+      {
+        "role": "assistant",
+        "content": "440300083885931"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_46",
+    "images": [
+      "dataset/zzsptfp/b29.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这票开给谁了"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市购机汇网络有限公司"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_47",
+    "images": [
+      "dataset/zzsptfp/b6.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n货物或服务的价款"
+      },
+      {
+        "role": "assistant",
+        "content": "￥2987.18"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_48",
+    "images": [
+      "dataset/zzsptfp/b19.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n税号是什么？"
+      },
+      {
+        "role": "assistant",
+        "content": "440300083885931"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_49",
+    "images": [
+      "dataset/zzsptfp/b17.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n查一下这张票的号码"
+      },
+      {
+        "role": "assistant",
+        "content": "12271544"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_50",
+    "images": [
+      "dataset/zzsptfp/b12.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请告诉我发票的价税明细"
+      },
+      {
+        "role": "assistant",
+        "content": "金额是￥2987.18，税率是17%，税额是￥507.82。"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_51",
+    "images": [
+      "dataset/zzsptfp/b13.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n购货单位地址电话信息"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市龙华新区民治街道民治大道科技大厦A12070755-23806606"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_52",
+    "images": [
+      "dataset/zzsptfp/b199.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n增值税税率多少"
+      },
+      {
+        "role": "assistant",
+        "content": "17%"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_53",
+    "images": [
+      "dataset/zzsptfp/b26.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n票据日期是几月几号"
+      },
+      {
+        "role": "assistant",
+        "content": "2016年06月12日"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_54",
+    "images": [
+      "dataset/zzsptfp/b10.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n看下购货方叫啥"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市购机汇网络有限公司"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_55",
+    "images": [
+      "dataset/zzsptfp/b19.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n不含税金额是多少？"
+      },
+      {
+        "role": "assistant",
+        "content": "￥2987.18"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_56",
+    "images": [
+      "dataset/zzsptfp/b0.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n看一下开票时间"
+      },
+      {
+        "role": "assistant",
+        "content": "2016年06月12日"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_57",
+    "images": [
+      "dataset/zzsptfp/b33.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请提供纳税人识别号"
+      },
+      {
+        "role": "assistant",
+        "content": "440300083885931"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_58",
+    "images": [
+      "dataset/zzsptfp/b5.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n看下购货方叫啥"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市购机汇网络有限公司"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_59",
+    "images": [
+      "dataset/zzsptfp/b20.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n一共多少钱？"
+      },
+      {
+        "role": "assistant",
+        "content": "￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_60",
+    "images": [
+      "dataset/zzsptfp/b138.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n票号多少"
+      },
+      {
+        "role": "assistant",
+        "content": "12263891"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_61",
+    "images": [
+      "dataset/zzsptfp/b20.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这张发票的税率是？"
+      },
+      {
+        "role": "assistant",
+        "content": "17%"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_62",
+    "images": [
+      "dataset/zzsptfp/b199.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这张发票的发票号码是什么？"
+      },
+      {
+        "role": "assistant",
+        "content": "12270238"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_63",
+    "images": [
+      "dataset/zzsptfp/b7.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这是第几号发票？"
+      },
+      {
+        "role": "assistant",
+        "content": "12270862"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_64",
+    "images": [
+      "dataset/zzsptfp/b11.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n看下商品金额"
+      },
+      {
+        "role": "assistant",
+        "content": "￥2987.18"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_65",
+    "images": [
+      "dataset/zzsptfp/b16.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n公司注册地址及联系方式"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市龙华新区民治街道民治大道展科技大厦#12070755-23806606"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_66",
+    "images": [
+      "dataset/zzsptfp/b26.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n含税价格是多少"
+      },
+      {
+        "role": "assistant",
+        "content": "￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_67",
+    "images": [
+      "dataset/zzsptfp/b199.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n税号是什么？"
+      },
+      {
+        "role": "assistant",
+        "content": "440300083885931"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_68",
+    "images": [
+      "dataset/zzsptfp/b18.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n查下购买方税号"
+      },
+      {
+        "role": "assistant",
+        "content": "440300083885931"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_69",
+    "images": [
+      "dataset/zzsptfp/b11.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请告诉我发票号码和开票日期"
+      },
+      {
+        "role": "assistant",
+        "content": "发票号码是12270837，开票日期是2016年06月12日。"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_70",
+    "images": [
+      "dataset/zzsptfp/b22.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请帮我核对一下金额和税额"
+      },
+      {
+        "role": "assistant",
+        "content": "金额是￥2987.18，税额是￥507.82，价税合计是￥3495.00。"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_71",
+    "images": [
+      "dataset/zzsptfp/b138.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n发票抬头是什么？"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市购机汇网络有限公司"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_72",
+    "images": [
+      "dataset/zzsptfp/b24.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n收款银行和账号"
+      },
+      {
+        "role": "assistant",
+        "content": "中国工商银行股份有限公司深圳园龄支行4000024709200172809"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_73",
+    "images": [
+      "dataset/zzsptfp/b25.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这张发票的税额是？"
+      },
+      {
+        "role": "assistant",
+        "content": "￥507.82"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_74",
+    "images": [
+      "dataset/zzsptfp/b20.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这票是几号开的"
+      },
+      {
+        "role": "assistant",
+        "content": "2016年06月12日"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_75",
+    "images": [
+      "dataset/zzsptfp/b27.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n开票日期是哪天？"
+      },
+      {
+        "role": "assistant",
+        "content": "2016年06月12日"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_76",
+    "images": [
+      "dataset/zzsptfp/b30.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n收款银行和账号"
+      },
+      {
+        "role": "assistant",
+        "content": "中国工商银行股份有限公司深圳园岭支行4000024708200172809"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_77",
+    "images": [
+      "dataset/zzsptfp/b137.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n银行开户信息是什么"
+      },
+      {
+        "role": "assistant",
+        "content": "中国工商银行股份有限公司深圳园龄支行4000024709200172809"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_78",
+    "images": [
+      "dataset/zzsptfp/b12.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n请帮我核对一下金额和税额"
+      },
+      {
+        "role": "assistant",
+        "content": "金额是￥2987.18，税额是￥507.82，价税合计是￥3495.00。"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_79",
+    "images": [
+      "dataset/zzsptfp/b1.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n含税价格是多少"
+      },
+      {
+        "role": "assistant",
+        "content": "￥1417.00"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_80",
+    "images": [
+      "dataset/zzsptfp/b10.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n税号是什么？"
+      },
+      {
+        "role": "assistant",
+        "content": "440300083885931"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_81",
+    "images": [
+      "dataset/zzsptfp/b9.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n核算一下：金额、税额、合计分别是多少"
+      },
+      {
+        "role": "assistant",
+        "content": "金额￥2987.18，税额￥507.82，合计￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_82",
+    "images": [
+      "dataset/zzsptfp/b33.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n总共应付多少钱"
+      },
+      {
+        "role": "assistant",
+        "content": "￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_83",
+    "images": [
+      "dataset/zzsptfp/b137.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n购买方的地址和电话是什么？"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市龙华新区民治街道民治大道展湘科技大厦A12070755-23806606"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_84",
+    "images": [
+      "dataset/zzsptfp/b140.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n看下购货方叫啥"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市购机汇网络有限公司"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_85",
+    "images": [
+      "dataset/zzsptfp/b10.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n发票总金额是多少？"
+      },
+      {
+        "role": "assistant",
+        "content": "￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_86",
+    "images": [
+      "dataset/zzsptfp/b7.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n购买方的开户行和账号是什么？"
+      },
+      {
+        "role": "assistant",
+        "content": "中国工商银行股份有限公司深圳园岭支行4000024709200172808"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_87",
+    "images": [
+      "dataset/zzsptfp/b7.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n税号是什么？"
+      },
+      {
+        "role": "assistant",
+        "content": "440300083885931"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_88",
+    "images": [
+      "dataset/zzsptfp/b20.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n金额税额信息是什么？"
+      },
+      {
+        "role": "assistant",
+        "content": "金额是￥2987.18，税率是17%，税额是￥507.82。"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_89",
+    "images": [
+      "dataset/zzsptfp/b33.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这票的编号查一下"
+      },
+      {
+        "role": "assistant",
+        "content": "12269563"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_90",
+    "images": [
+      "dataset/zzsptfp/b201.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n买方的通讯地址和联系电话"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市龙华新区民治街道民治大道震科技大服A12070786-23806606"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_91",
+    "images": [
+      "dataset/zzsptfp/b13.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这票按几个点收税"
+      },
+      {
+        "role": "assistant",
+        "content": "17%"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_92",
+    "images": [
+      "dataset/zzsptfp/b7.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n核算一下：金额、税额、合计分别是多少"
+      },
+      {
+        "role": "assistant",
+        "content": "金额￥2987.18，税额￥507.82，合计￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_93",
+    "images": [
+      "dataset/zzsptfp/b24.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n核算一下：金额、税额、合计分别是多少"
+      },
+      {
+        "role": "assistant",
+        "content": "金额￥2987.18，税额￥507.82，合计￥3495.00"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_94",
+    "images": [
+      "dataset/zzsptfp/b140.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n税率是多少？"
+      },
+      {
+        "role": "assistant",
+        "content": "17%"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_95",
+    "images": [
+      "dataset/zzsptfp/b3.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n票据日期是几月几号"
+      },
+      {
+        "role": "assistant",
+        "content": "2016年06月12日"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_96",
+    "images": [
+      "dataset/zzsptfp/b10.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这张发票的开具日期是什么？"
+      },
+      {
+        "role": "assistant",
+        "content": "2016年06月12日"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_97",
+    "images": [
+      "dataset/zzsptfp/b1.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n发票编号是多少？"
+      },
+      {
+        "role": "assistant",
+        "content": "12270242"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_98",
+    "images": [
+      "dataset/zzsptfp/b23.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n开户银行及账号是多少？"
+      },
+      {
+        "role": "assistant",
+        "content": "中国工商银行股份有限公司深圳园龄支行4000024709200172809"
+      }
+    ]
+  },
+  {
+    "id": "val_simple_99",
+    "images": [
+      "dataset/zzsptfp/b0.jpg"
+    ],
+    "messages": [
+      {
+        "role": "user",
+        "content": "<image>\n这票开给谁了"
+      },
+      {
+        "role": "assistant",
+        "content": "深圳市购机汇网络有限公司"
+      }
+    ]
+  }
+]

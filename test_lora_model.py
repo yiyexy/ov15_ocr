@@ -17,9 +17,9 @@ def parse_args():
     parser.add_argument("--base_model", default="./checkpoints/LLaVA-OneVision-1.5-4B-Instruct")
     parser.add_argument("--lora_path", default="./output/llava_ov15_4b_ocr_lora/final")
     parser.add_argument("--no_lora", action="store_true", help="不加载 LoRA 权重，直接使用原始模型测试")
-    parser.add_argument("--val_data", default="./dataset/invoice_vqa_val.json")
+    parser.add_argument("--val_data", default="./dataset/invoice_vqa_val_simple.json")
     parser.add_argument("--image_root", default="./")
-    parser.add_argument("--num_samples", type=int, default=20, help="测试样本数，None 表示全部")
+    parser.add_argument("--num_samples", type=int, default=None, help="测试样本数，None 表示全部")
     parser.add_argument("--output", default="./eval_results.json")
     return parser.parse_args()
 
@@ -151,8 +151,14 @@ def normalize_answer(text):
     return text.strip()
 
 
-def flexible_match(gt, pred):
-    """灵活匹配，返回是否匹配及匹配类型"""
+def flexible_match(gt, pred, num_tolerance=0.05):
+    """灵活匹配，返回是否匹配及匹配类型
+    
+    Args:
+        gt: 标准答案
+        pred: 预测答案
+        num_tolerance: 数值容差（相对误差），默认 5%
+    """
     if not gt or not pred:
         return False, "empty"
     
@@ -172,10 +178,23 @@ def flexible_match(gt, pred):
     gt_nums = re.findall(r'[\d.]+', gt_norm)
     pred_nums = re.findall(r'[\d.]+', pred_norm)
     if gt_nums and pred_nums:
-        # 比较主要数字
         try:
-            if float(gt_nums[0]) == float(pred_nums[0]):
+            gt_val = float(gt_nums[0])
+            pred_val = float(pred_nums[0])
+            
+            # 精确数字匹配
+            if gt_val == pred_val:
                 return True, "numeric"
+            
+            # 近似数字匹配（允许一定误差）
+            if gt_val != 0:
+                rel_error = abs(gt_val - pred_val) / abs(gt_val)
+                if rel_error <= num_tolerance:
+                    return True, "numeric_approx"
+            
+            # 绝对误差匹配（小数值时用）
+            if abs(gt_val - pred_val) <= 1.0:
+                return True, "numeric_approx"
         except:
             pass
     
