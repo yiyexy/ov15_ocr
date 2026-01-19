@@ -256,6 +256,13 @@ def main():
     print(f"{'='*50}")
     print(f"测试样本数: {len(results)}")
     print(f"匹配准确率: {accuracy*100:.2f}%")
+    
+    # 统计匹配类型分布
+    match_types = {}
+    for r in results:
+        mt = r.get("match_type", "unknown")
+        match_types[mt] = match_types.get(mt, 0) + 1
+    print(f"匹配类型分布: {match_types}")
     print(f"结果保存至: {args.output}")
     
     # 显示一些样例
@@ -268,7 +275,8 @@ def main():
         print(f"问题: {r['question']}")
         print(f"GT: {r['gt'][:80]}{'...' if len(r['gt']) > 80 else ''}")
         print(f"预测: {r['pred'][:80]}{'...' if len(r['pred']) > 80 else ''}")
-        print(f"匹配: {'✓' if r['match'] else '✗'}")
+        match_symbol = '✓' if r['match'] else '✗'
+        print(f"匹配: {match_symbol} ({r.get('match_type', 'unknown')})")
 
 
 if __name__ == "__main__":
