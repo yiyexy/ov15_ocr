@@ -96,8 +96,8 @@ def inference(model, processor, image_path, question, max_new_tokens=256):
     for k, v in inputs.items():
         if isinstance(v, torch.Tensor):
             inputs[k] = v.to(model.device)
-            # pixel_values 需要转换为 bfloat16
-            if k == "pixel_values":
+            # 所有浮点张量都转换为 bfloat16
+            if inputs[k].dtype in [torch.float32, torch.float64]:
                 inputs[k] = inputs[k].to(torch.bfloat16)
     
     # 生成
