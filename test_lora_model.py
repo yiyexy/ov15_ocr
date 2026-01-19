@@ -16,6 +16,7 @@ def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument("--base_model", default="./checkpoints/LLaVA-OneVision-1.5-4B-Instruct")
     parser.add_argument("--lora_path", default="./output/llava_ov15_4b_ocr_lora/final")
+    parser.add_argument("--no_lora", action="store_true", help="不加载 LoRA 权重，直接使用原始模型测试")
     parser.add_argument("--val_data", default="./dataset/invoice_vqa_val.json")
     parser.add_argument("--image_root", default="./")
     parser.add_argument("--num_samples", type=int, default=20, help="测试样本数，None 表示全部")
@@ -24,8 +25,10 @@ def parse_args():
 
 args = parse_args()
 
-# 添加模型目录到路径
-sys.path.insert(0, args.base_model)
+# 添加模型目录到路径（使用绝对路径确保能正确找到模块）
+model_abs_path = os.path.abspath(args.base_model)
+sys.path.insert(0, model_abs_path)
+print(f"Added to sys.path: {model_abs_path}")
 
 from transformers import AutoProcessor, AutoConfig, AutoModelForImageTextToText
 from peft import PeftModel
@@ -38,7 +41,7 @@ AutoConfig.register("llavaonevision1_5", Llavaonevision1_5Config)
 AutoModelForImageTextToText.register(Llavaonevision1_5Config, LLaVAOneVision1_5_ForConditionalGeneration)
 
 
-def load_model(base_model_path, lora_path):
+def load_model(base_model_path, lora_path, use_lora=True):
     """加载基础模型和 LoRA 权重"""
     print(f"Loading base model from {base_model_path}...")
     processor = AutoProcessor.from_pretrained(base_model_path, trust_remote_code=True)
@@ -50,8 +53,12 @@ def load_model(base_model_path, lora_path):
         trust_remote_code=True
     )
     
-    print(f"Loading LoRA weights from {lora_path}...")
-    model = PeftModel.from_pretrained(model, lora_path)
+    if use_lora and lora_path:
+        print(f"Loading LoRA weights from {lora_path}...")
+        model = PeftModel.from_pretrained(model, lora_path)
+    else:
+        print("Using base model without LoRA...")
+    
     model.eval()
     
     return model, processor
@@ -159,11 +166,14 @@ def main():
     # 使用全局 args 变量（已在文件开头解析）
     
     print("=" * 50)
-    print("LLaVA-OneVision-1.5-4B + LoRA 模型测试")
+    if args.no_lora:
+        print("LLaVA-OneVision-1.5-4B 原始模型测试")
+    else:
+        print("LLaVA-OneVision-1.5-4B + LoRA 模型测试")
     print("=" * 50)
     
     # 加载模型
-    model, processor = load_model(args.base_model, args.lora_path)
+    model, processor = load_model(args.base_model, args.lora_path, use_lora=not args.no_lora)
     
     # 评估
     print(f"\nEvaluating on {args.num_samples if args.num_samples else 'all'} samples...")
