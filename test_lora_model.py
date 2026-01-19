@@ -131,6 +131,57 @@ def inference(model, processor, image_path, question, max_new_tokens=256):
     return response.strip()
 
 
+def normalize_answer(text):
+    """标准化答案，用于更灵活的匹配"""
+    import re
+    if not text:
+        return ""
+    text = str(text).strip()
+    # 转小写
+    text = text.lower()
+    # 移除常见前缀后缀符号
+    text = re.sub(r'^[¥￥$€£]', '', text)
+    text = re.sub(r'[元円]$', '', text)
+    # 移除多余空格
+    text = re.sub(r'\s+', ' ', text)
+    # 标准化标点
+    text = text.replace('，', ',').replace('。', '.').replace('：', ':')
+    # 移除尾部的 .00（整数）
+    text = re.sub(r'\.0+$', '', text)
+    return text.strip()
+
+
+def flexible_match(gt, pred):
+    """灵活匹配，返回是否匹配及匹配类型"""
+    if not gt or not pred:
+        return False, "empty"
+    
+    gt_norm = normalize_answer(gt)
+    pred_norm = normalize_answer(pred)
+    
+    # 完全匹配
+    if gt_norm == pred_norm:
+        return True, "exact"
+    
+    # 包含匹配
+    if gt_norm in pred_norm or pred_norm in gt_norm:
+        return True, "contains"
+    
+    # 数字匹配（提取数字进行比较）
+    import re
+    gt_nums = re.findall(r'[\d.]+', gt_norm)
+    pred_nums = re.findall(r'[\d.]+', pred_norm)
+    if gt_nums and pred_nums:
+        # 比较主要数字
+        try:
+            if float(gt_nums[0]) == float(pred_nums[0]):
+                return True, "numeric"
+        except:
+            pass
+    
+    return False, "no_match"
+
+
 def evaluate_on_val_set(model, processor, val_data_path, image_root, num_samples=None):
     """在验证集上评估"""
     with open(val_data_path, 'r') as f:
@@ -154,8 +205,8 @@ def evaluate_on_val_set(model, processor, val_data_path, image_root, num_samples
             print(f"Error processing {image_path}: {e}")
             pred_answer = ""
         
-        # 简单匹配评估
-        is_correct = gt_answer.strip() in pred_answer or pred_answer.strip() in gt_answer
+        # 灵活匹配评估
+        is_correct, match_type = flexible_match(gt_answer, pred_answer)
         if is_correct:
             correct += 1
         total += 1
@@ -165,7 +216,8 @@ def evaluate_on_val_set(model, processor, val_data_path, image_root, num_samples
             "question": question,
             "gt": gt_answer,
             "pred": pred_answer,
-            "match": is_correct
+            "match": is_correct,
+            "match_type": match_type
         })
     
     accuracy = correct / total if total > 0 else 0
