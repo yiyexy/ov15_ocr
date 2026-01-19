@@ -46,7 +46,13 @@ def load_model(base_model_path, lora_path, use_lora=True):
     
     if use_lora and lora_path:
         print(f"Loading LoRA weights from {lora_path}...")
-        model = PeftModel.from_pretrained(model, lora_path)
+        model = PeftModel.from_pretrained(
+            model, 
+            lora_path,
+            torch_dtype=torch.bfloat16  # 确保 LoRA 权重也是 bfloat16
+        )
+        # 确保整个模型都是 bfloat16
+        model = model.to(torch.bfloat16)
     else:
         print("Using base model without LoRA...")
     
@@ -92,13 +98,21 @@ def inference(model, processor, image_path, question, max_new_tokens=256):
         return_tensors="pt"
     )
     
-    # 移到 GPU 并转换数据类型
-    for k, v in inputs.items():
+    # 递归转换所有张量到正确的设备和数据类型
+    def convert_tensor(v):
         if isinstance(v, torch.Tensor):
-            inputs[k] = v.to(model.device)
-            # 所有浮点张量都转换为 bfloat16
-            if inputs[k].dtype in [torch.float32, torch.float64]:
-                inputs[k] = inputs[k].to(torch.bfloat16)
+            v = v.to(model.device)
+            if v.dtype in [torch.float32, torch.float64]:
+                v = v.to(torch.bfloat16)
+            return v
+        elif isinstance(v, list):
+            return [convert_tensor(x) for x in v]
+        elif isinstance(v, tuple):
+            return tuple(convert_tensor(x) for x in v)
+        else:
+            return v
+    
+    inputs = {k: convert_tensor(v) for k, v in inputs.items()}
     
     # 生成
     with torch.no_grad():
